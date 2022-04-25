@@ -1,0 +1,21 @@
+composer:
+  last: Danzi
+  first: Franz Ignaz
+title: Missa in D
+id: PecD 58
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), fl, 2 ob, 2 cor (D), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-KA
+    shelfmark: Don Mus.Ms. 304
+    date: 1800
+    rism: 450012811
+    url: https://nbn-resolving.org/urn:nbn:de:bsz:31-75548
+    license: CC-BY-SA-4.0
+    principal: true
+imslp:
+parts:
+  cor12: Corno I, II in D
+  ottoni: Clarino I, II in D\\Timpani in D–A
