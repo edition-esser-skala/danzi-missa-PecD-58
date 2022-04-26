@@ -6,6 +6,19 @@
 \include "ees.ly"
 
 
+dim = #(make-music
+  'DecrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "dim.")))
+
+dimE = #(make-music
+  'DecrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small #:italic "dim.")))
+
+
 tempoKyrie = \tempoMarkup "Andante moderato"
 
 
