@@ -89,3 +89,235 @@ KyrieAltoLyrics = \lyricmode {
   le -- i --
   son. %47 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \autoBeamOff \tempoGloria
+    \mvTr d4.\fE^\tuttiE d8 d4
+    e( fis) g
+    a fis r
+    g h r
+    r h\p h %5
+    a( g) fis
+    e2 e4
+    d8. d16 d4 r
+    d4.\f d8 d4
+    e( fis) g %10
+    a fis r
+    g h r
+    r h\p h
+    h a2
+    a4( gis) gis %15
+    gis( fis8) fis fis4
+    fis e2
+    a\crescE a4
+    a2( gis4)
+    a2\fE r4 %20
+    R2.*10 %30
+    \mvTr cis,4\f^\tuttiE d e
+    fis( e) dis
+    e2 e4
+    e( d!) cis
+    fis2 fis4 %35
+    fis fis fis
+    g!2 g4
+    g2.
+    fis4. fis8 fis4
+    fis2 fis4 %40
+    e2 e4
+    e4. e8 e4
+    d dis r
+    e eis r
+    fis2. %45
+    e!
+    d4 r r
+    R2.*16 %63
+    d4\pE fis h
+    g( e) a %65
+    fis( d) g~
+    g e( fis)
+    g r h\f
+    a2 h8[ a]
+    g2 a8[ g] %70
+    fis2 g8[ fis]
+    e2 fis8[ e]
+    d2 g4
+    g( fis gis)
+    a2 a4 %75
+    a gis ais
+    h2.~
+    \once \hairpinDashed h4\> ais fis\p
+    g!2 a8([ g)]
+    fis2 g8[ fis] %80
+    e2 fis8[ e]
+    d4 r r
+    R2.
+    r4 r ais'~
+    ais h2 %85
+    h4( ais) ais
+    ais( h) eis,
+    eis( fis) ais
+    ais( h) eis,
+    fis2.~ %90
+    fis2 e4
+    d r r
+    R2.*4 %96
+    d2\f d4
+    e( fis) g
+    a fis r
+    g h r %100
+    r r h\p
+    a( g) fis
+    e2 e4
+    d8. d16 d4 r
+    R2.*11 %115
+    \mvTr e4\f^\tuttiE e e
+    cis8 cis d4 e
+    fis g a
+    h4.( a8[ g fis)]
+    e4 r r %120
+    r a8([ g fis e)]
+    d4 r r
+    r g8([ fis e d)]
+    cis4 r r
+    R2. %125
+    r4 e8([ f e d)]
+    cis4 \once \tieDashed a'2~\p
+    a2.
+    g~
+    g %130
+    \once \tieDashed fis~
+    fis
+    \once \tieDashed e~
+    e
+    \once \tieDashed d~\crescE %135
+    d4\f h e
+    e( g!) fis
+    h2.
+    a2 g4
+    fis r r %140
+    R2.*2
+    a2.\f
+    a4 r r
+    R2.*2 %146
+    a2.\fE
+    a4 r r
+    a2.
+    a2 r4\fermata \bar "|." %150 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a
+  in __ ex --
+  cel -- sis
+  De -- o,
+  et in %5
+  ter -- ra
+  pax ho --
+  mi -- ni -- bus,
+  glo -- ri -- a
+  in __ ex -- %10
+  cel -- sis
+  De -- o,
+  et in
+  ter -- ra
+  pax __ ho -- %15
+  mi -- ni -- bus
+  bo -- nae
+  vo -- lun --
+  ta --
+  tis. %20
+
+  Do -- mi -- ne %31
+  De -- us,
+  Rex coe --
+  le -- stis,
+  De -- us %35
+  Pa -- ter o --
+  mni -- po --
+  tens,
+  Do -- mi -- ne
+  Fi -- li %40
+  u -- ni --
+  ge -- ni -- te,
+  Je -- su,
+  Je -- su
+  Chri -- %45
+  _
+  ste.
+
+  Do -- mi -- ne %64
+  De -- us, %65
+  A -- gnus __
+  De --
+  i, Pa --
+  _ _
+  _ _ %70
+  _ _
+  _ _
+  tris, qui
+  se --
+  des, qui %75
+  se -- _ _
+  _
+  des ad
+  dex -- tram
+  Pa -- _ %80
+  _ _
+  tris:
+
+  Mi --
+  se -- %85
+  re -- re
+  no -- bis,
+  mi -- se --
+  re -- re
+  no -- %90
+  _
+  bis.
+
+  Quo -- ni -- %97
+  am __ tu
+  so -- lus
+  san -- ctus, %100
+  tu
+  so -- lus,
+  so -- lus
+  Do -- mi -- nus.
+
+  Cum San -- cto %116
+  Spi -- ri -- tu in
+  glo -- ri -- a
+  De --
+  i %120
+  Pa --
+  tris,
+  a --
+  men,
+  %125
+  a --
+  men, a --
+
+  _
+  %130
+  _
+
+  _
+
+  _ %135
+  _ men,
+  a -- men,
+  a --
+  _ _
+  men, %140
+
+  a -- %143
+  men,
+
+  a -- %147
+  men,
+  a --
+  men. %150 finis
+}

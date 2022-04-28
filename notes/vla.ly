@@ -49,3 +49,154 @@ KyrieViola = {
     a r a r a4 r\fermata \bar "|."
   }
 }
+
+GloriaViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 3/4 \tempoGloria
+    d2.\fE
+    d4 d d
+    fis d r
+    h g r
+    R2.*4 %8
+    d'2\f d4~
+    d d d %10
+    fis d r
+    h g r
+    r r e'\p
+    e2( d4)
+    d2( cis4) %15
+    cis2( h4)
+    h2( a4)
+    fis'(\crescE e d)
+    e2( d4)
+    cis\fE r r %20
+    <gis h>2.\p
+    <a cis>
+    <gis h>
+    <a cis>
+    <gis h> %25
+    <a cis>
+    <gis h>
+    <a cis>
+    <gis h>
+    <a cis> 2 r4 %30
+    cis\f d e
+    fis e dis
+    e, fis gis
+    a h cis
+    ais h cis %35
+    d e fis
+    g,! a h
+    cis d e
+    fis, g a
+    h cis d %40
+    e, fis gis
+    ais h cis
+    fis2 r4
+    e( d!) r
+    d8 d d d d d %45
+    cis cis cis cis cis cis
+    h h4 h h8~
+    h h4 h h8
+    fis'4-! gis-! r
+    fis2 e4 %50
+    d2 r4
+    g,\p h e
+    c a d
+    h g c
+    c h cis %55
+    d2 d4~
+    d cis8 h cis4
+    d4. c8 h4
+    a2 d8 c
+    h4 g h %60
+    e2 d4
+    d2 c4
+    a g a8 g
+    fis4 r r
+    r r a8 h %65
+    c2 h4
+    a2.
+    g4 r e'~\f
+    e c d~
+    d h c~ %70
+    c a h~
+    h g a~
+    a g a
+    a2 e'4
+    e2 h4 %75
+    h2 fis'4
+    fis2 cis4
+    cis2\> ais4\p
+    h2( cis4)
+    ais2( h4) %80
+    gis2 ais4
+    h2.
+    cis
+    h4 d e~
+    e d eis~ %85
+    eis fis cis~
+    cis h d~
+    d cis cis~
+    cis h d
+    cis2.~ %90
+    cis
+    h8 h4 h \once \tieDashed h8~
+    h h4 h h8
+    fis'4-! gis-! r
+    fis2 e4 %95
+    d2 r4
+    d8\f d4 d d8~
+    d d4 d d8
+    fis4 d r
+    d d r %100
+    R2.*4
+    <a cis>2.\p %105
+    <a d>
+    <a e'>
+    <a d>
+    <a e'>
+    <a d> %110
+    <a e'>
+    <a d>
+    <a cis>
+    <a d>
+    R2. %115
+    h4\f a gis
+    a h cis
+    d e fis
+    h, cis d
+    e fis g %120
+    a, h cis
+    d e fis
+    g, a h
+    cis d e
+    fis2 d4 %125
+    h2.
+    a4 r cis\p
+    dis( e fis
+    g) e-! d-!
+    cis( d e %130
+    fis) d-! cis-!
+    h( cis d
+    e) cis-! h-!
+    a( h cis
+    d)\cresc h-! a-! %135
+    gis8\f gis4 gis gis8
+    a a e' e d d
+    h' h h h h h
+    a a a a g g
+    fis d4\p d \once \tieDashed d8~ %140
+    d d4 d d8~
+    d4 h r
+    r-\critnote a\fE a
+    d8 d4\p d d8~
+    d d4 d d8~ %145
+    d4 h r
+    r a\f a
+    d r r
+    a' r r
+    <d d,> r r\fermata \bar "|." %150 finis
+  }
+}

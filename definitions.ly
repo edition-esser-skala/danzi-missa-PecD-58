@@ -20,6 +20,7 @@ dimE = #(make-music
 
 
 tempoKyrie = \tempoMarkup "Andante moderato"
+tempoGloria = \tempoMarkup "Allegro con spirito"
 
 
 % \include "notes/fl.ly"
@@ -27,9 +28,9 @@ tempoKyrie = \tempoMarkup "Andante moderato"
 \include "notes/ob2.ly"
 \include "notes/cor1.ly"
 \include "notes/cor2.ly"
-% \include "notes/clno1.ly"
-% \include "notes/clno2.ly"
-% \include "notes/timp.ly"
+\include "notes/clno1.ly"
+\include "notes/clno2.ly"
+\include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
 \include "notes/vla.ly"
