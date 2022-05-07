@@ -369,3 +369,249 @@ GloriaTenoreLyrics = \lyricmode {
   a --
   men. %150 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 2/2 \autoBeamOff \tempoCredo
+    R1*8 %8
+    \mvTr d2\f^\tuttiE e
+    e4. cis8 h4 r %10
+    c2 h
+    a4 a r2
+    R1
+    r2 r4 a8 a
+    h8. h16 h4 a2 %15
+    a4 r r2
+    d2\p e4 e
+    d d r2
+    d e4 e
+    d8. d16 d4 r2 %20
+    d4.\f d8 e4 e
+    e2 e4 r
+    d2 h
+    a!4. a8 dis2
+    e d %25
+    cis4 r r2
+    R1*4 %30
+    r4 \mvTr a\f^\tuttiE a fis
+    r h h gis
+    r cis cis a
+    r d h4.( e8)
+    e4 r a,2 %35
+    a( gis)
+    a4 r r2
+    d\p e4 e
+    d4. d8 e4 cis
+    d2 e4 e %40
+    d d r2
+    d4. d8 e4 e
+    d4. d8 e4 e
+    e1\f\fermata
+    e2 r\fermata %45
+    cis1\fermata
+    d2 r\fermata
+    d\p cis
+    d r
+    R1*2 %51
+    e2\p e
+    e d
+    d4. d8 d4 cis
+    cis2 cis4 cis %55
+    cis4. cis8 cis4 cis
+    h2 h
+    ais1\sf
+    ais2 r
+    cis1\f %60
+    cis2 r
+    cis2.\p cis4
+    cis2 his
+    cis r\fermata
+    \mvTr e2\pE^\solo fis4 fis %65
+    h,4.( cis16[ d)] cis2
+    dis4 e8 e e4( d)
+    cis2 r4 a
+    e'2 fis4 fis
+    h,4.( cis16[ d)] cis4 cis8 cis %70
+    cis4 d8 cis cis4( his)
+    cis2 r
+    \mvTr fis\fE^\tutti fis
+    e e4 e
+    d2 d %75
+    cis cis
+    h h
+    h h4 h
+    a( cis) c2
+    cis( h) %80
+    cis4 r r2
+    R1
+    r4 d8 d g4 fis8 fis
+    e1
+    d4 r r2 %85
+    R1
+    r4 h8 h e4 d8 d
+    cis1
+    d2 r
+    r r4 fis,8 fis %90
+    ais4 h cis( d)
+    cis cis cis2
+    cis r
+    r4 d\p e8. e16 e4
+    d d8 d e4 e %95
+    d8 d d d e4 e
+    d d e e
+    d2\f e
+    e e4 r
+    d4. d8 e4 e %100
+    e2 e
+    d h
+    a1
+    \tempoCredoB a2 d4( cis)
+    h( a) g fis %105
+    g2( e'4) d
+    cis( h) a g
+    a2 fis'4 e
+    d cis h a
+    h2 \once \tieDashed e~ %110
+    e2. \once \tieDashed cis4~
+    cis d8[ e] d4 fis
+    e1
+    d
+    cis! %115
+    h
+    a2. h4
+    a1
+    a2 r
+    R1 %120
+    r2 r4 e'
+    fis2 e
+    fis r
+    R1
+    r2 r4 e %125
+    fis2 e
+    fis r
+    e1
+    d2 r\fermata \bar "|." %129 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  U -- ni -- %9
+  ge -- ni -- tum, %10
+  Je -- sum
+  Chri -- stum,
+
+  an -- te
+  sae -- cu -- la na -- %15
+  tum.
+  De -- um de
+  De -- o,
+  lu -- men de
+  lu -- mi -- ne, %20
+  ge -- ni -- tum non
+  fa -- ctum,
+  per quem
+  o -- mni -- a
+  fa -- cta %25
+  sunt.
+
+  De -- scen -- dit %31
+  de coe -- lis,
+  de -- scen -- dit
+  de coe --
+  lis, de %35
+  coe --
+  lis.
+  Et in -- car --
+  na -- tus est de
+  Spi -- ri -- tu %40
+  San -- cto
+  ex Ma -- ri -- a
+  Vir -- gi -- ne, et
+  ho --
+  mo, %45
+  ho --
+  mo
+  fa -- ctus
+  est.
+
+  Cru -- ci -- %52
+  fi -- xus
+  e -- ti -- am pro
+  no -- bis sub %55
+  Pon -- ti -- o Pi --
+  la -- to
+  pas --
+  sus,
+  pas -- %60
+  sus
+  et se --
+  pul -- tus
+  est.
+  Et re -- sur -- %65
+  re -- xit
+  ter -- ti -- a di --
+  e se --
+  cun -- dum Scri --
+  ptu -- ras, et a -- %70
+  scen -- dit in coe --
+  lum.
+  Cu -- ius
+  re -- gni non
+  e -- rit %75
+  fi -- nis,
+  cu -- ius
+  re -- gni non
+  e -- rit
+  fi -- %80
+  nis.
+
+  Et in Spi -- ri -- tum
+  San --
+  ctum, %85
+
+  et in Spi -- ri -- tum
+  San --
+  ctum.
+  Qui lo -- %90
+  cu -- tus est __
+  per Pro -- phe --
+  tas.
+  Con -- fi -- te -- or
+  u -- num ba -- ptis -- ma %95
+  in re -- mis -- si -- o -- nem
+  pec -- ca -- to -- rum.
+  Et ex --
+  pe -- cto
+  re -- sur -- re -- cti -- %100
+  o -- nem
+  mor -- tu --
+  o --
+  rum. Et __
+  vi -- tam ven -- %105
+  tu -- ri
+  sae -- cu -- li,
+  a -- _ _
+  _ _ _ _
+  _ _ %110
+  _
+  _ _  men,
+  a --
+  _
+  _ %115
+  _
+  _ men,
+  a --
+  men,
+  %120
+  a --
+  men, a --
+  men,
+
+  a -- %125
+  men, a --
+  men,
+  a --
+  men. %129 finis
+
+}

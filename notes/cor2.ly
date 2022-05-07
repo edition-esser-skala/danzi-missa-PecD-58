@@ -124,3 +124,88 @@ GloriaCornoII = {
     c, r r\fermata \bar "|." %150 finis
   }
 }
+
+CredoCornoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoCredo
+    R1*8 %8
+    c'2\f d
+    R1 %10
+    c2. d4
+    g, g r2
+    c,1~
+    c2 g'4 c
+    c2 g %15
+    e8-! r e8.\p e16 g8-! r g8. g16
+    c4 r g2
+    e8-! r e8. e16 g8-! r g8. g16
+    c4 r g2
+    e8-! r e8. e16 g8-! r g8. g16 %20
+    c2\f d
+    d d4 r
+    r2 d
+    g,1
+    d'4 d8. d16 d4 d %25
+    g, r r2
+    R1*9 %35
+    d'1\fE
+    g,8-! r g8.\p g16 g8-! r g8. g16
+    c4 r g2
+    e8-! r e8. e16 g8-! r g8. g16
+    c4 r g2 %40
+    e8-! r e8. e16 g8-! r g8. g16
+    c4 r g2
+    e8-! r e8. e16 g8-! r g8. g16
+    d'1\f\fermata
+    g,2 r\fermata %45
+    d'1\fermata
+    c2 r\fermata
+    R1*2
+    c1\sf %50
+    R1*7 %57
+    d1~\sf
+    d2\> r\!
+    d1~\sf %60
+    d2\> r\!
+    R1*2
+    R1\fermata
+    R1*8 %72
+    e1\f
+    d
+    c2. r4 %75
+    R1*2
+    d1
+    g,
+    d' %80
+    g,4 r r2
+    c,1~
+    c2 g'4 c
+    d1
+    c4 r r2 %85
+    R1*7 %92
+    r2 r4 g\p
+    c r g2
+    e8-! r e8. e16 g8-! r g8. g16 %95
+    c4 r g2
+    e8-! r e8. e16 g8-! r g8. g16
+    c2 r
+    d~ d4 r
+    r2 d( %100
+    g,4) g8. g16 g4 g
+    c2 c
+    c g
+    \tempoCredoB c,4 r r2
+    R1*13 %117
+    c'2 g
+    c, r
+    R1*2 %121
+    c'2 g
+    c, r
+    R1*2 %125
+    c'2 g
+    c,4 c e c
+    g'1
+    c,2 r\fermata \bar "|." %129 finis
+  }
+}

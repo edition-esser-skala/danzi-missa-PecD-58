@@ -200,3 +200,146 @@ GloriaViola = {
     <d d,> r r\fermata \bar "|." %150 finis
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key d \major \time 2/2 \tempoCredo
+    d1~\p
+    d4( cis) d r
+    h a h a
+    a2 r
+    d1~ %5
+    \once \slurDashed d4( cis) d r
+    d2 d4( cis)
+    cis2 r
+    d\f e
+    e( d4) r %10
+    d d2 h4
+    e <e a,> r2
+    R1
+    r2 r4 a,8 a
+    g-\critnote g g g a a a a %15
+    d4 <d fis,>8.\pE q16 <e a,>4 q8. q16
+    <d fis>2 <a e'>
+    <d fis,>4 q8. q16 <e a,>4 q8. q16
+    <d fis>2 <a e'>
+    <d fis,>4 q8. q16 <e a,>4 q8. q16 %20
+    <d fis>4\fE r e2
+    <cis e>4 q8. q16 q4 cis
+    <h d> q8. q16 <h gis'>4 q8. q16
+    <a a'>4 a' dis, dis
+    e e d d %25
+    cis cis r2
+    cis\p h~
+    h4 e2 r4
+    fis( e) fis( e)
+    e2 r %30
+    r4 a,\f a fis
+    r h h gis
+    r cis cis a
+    r d h4.( e8)~
+    e e4 e8( fis) fis4 fis8 %35
+    e e e e e e d d
+    r4 <e a,>8.\p q16 q4 q
+    <d fis>2 <a e'>
+    <fis d'>4 q8. q16 <a e'>4 q
+    <d fis>2 <a e'> %40
+    <fis d'>4 q8. q16 <a e'>4 q
+    <d fis>2 <a e'>
+    <fis d'>4 q8. q16 <a e'>4 q
+    e'1\f\fermata
+    e2 r\fermata %45
+    g!1\fermata
+    fis2 r\fermata
+    r4 d\p r cis
+    d d d d
+    b\sf b b b %50
+    a r r2
+    r8 e'\p e e e e e e
+    e e e e d d d d
+    d d d d d d cis! cis
+    cis cis cis cis cis cis cis cis %55
+    cis cis cis cis cis cis cis cis
+    h h h h h h h h
+    << {
+      \oneVoice <cis e>1~\sfE
+      \once \hairpinDashed q
+      q~\sfE %60
+      \once \hairpinDashed q
+    } \\ {
+      s1
+      \hairpinDashed s2.\> s8\! s
+      s1 %60
+      s2.\> s8\! s
+    } >>
+    r4 cis\ppE cis cis
+    r cis( his) his
+    cis2 r\fermata
+    cis(\p h!)~ %65
+    h4 e2 r4
+    fis( e) e2
+    e r
+    cis h~
+    h4 e2 r4 %70
+    fis1
+    eis2 r
+    fis1\f
+    e
+    d %75
+    cis
+    h~
+    h2 e
+    e8 e e e fis fis fis fis
+    e e e e e e e e %80
+    e4 e8 e a a4 a8~
+    a a4 a8 g! g a a
+    d, d d d a' a a a
+    h4 h8. h16 a4 g
+    fis r r2 %85
+    R1
+    r4 fis8 fis4 fis fis8
+    g4 g8. g16 fis2
+    fis r
+    r4 h8 h h4 a %90
+    g fis e8 e d d
+    e4 e8. e16 eis4 eis
+    fis2 r4 <e a,>8.\p q16
+    <d fis>2 <a e'>
+    <fis d'>4 q8. q16 <a e'>4 q8. q16 %95
+    <d fis>2 <a e'>
+    <fis d'>4 q8. q16 <a e'>4 q8. q16
+    <d fis>4\f r e2
+    <cis e>4 q8. q16 q4 q
+    <h d> r <h gis'>2 %100
+    <a a'>4 <cis e>8. q16 q4 q
+    d d( h') h
+    a <fis a> <g a>2
+    \tempoCredoB <fis a>4 r r2
+    r4 d e fis %105
+    e2 r
+    r4 e fis g
+    fis2 r
+    r4 fis g a
+    g2 e %110
+    e2. cis4
+    cis2( h4) r
+    r e2 e4
+    r d2 d4
+    r cis2 cis4 %115
+    r h2 h4
+    r a2 h4
+    a1
+    a2 r4 gis'\p
+    a2. \once \tieDashed cis,4~ %120
+    cis d8 e d4 h'\f
+    a2 a
+    fis r4 gis\p
+    a2. cis,4~
+    cis d8 e d4 h'\f %125
+    a2 a
+    fis r
+    a, r
+    d r\fermata \bar "|." %129 finis
+  }
+}

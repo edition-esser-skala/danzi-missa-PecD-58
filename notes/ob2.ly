@@ -121,3 +121,96 @@ GloriaOboeII = {
     d r r\fermata \bar "|." %150 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoCredo
+    R1*8 %8
+    h'1~\f
+    h4 ais( h) r %10
+    fis'( d2) d4
+    cis cis r2
+    R1
+    r4 a2 a4
+    d2 cis %15
+    d8-! r a8.\p a16 cis8-! r cis8. cis16
+    d4 r r2
+    a8-! r a8. a16 cis8-! r cis8. cis16
+    d4 r r2
+    a8-! r a8. a16 cis8-! r cis8. cis16 %20
+    d1\f
+    cis2~ cis4 r
+    r2 h
+    a dis
+    e4 cis h2 %25
+    cis4 r r2
+    R1*8 %34
+    cis2\fE fis %35
+    e2. d4
+    cis8-! r cis8.\p cis16 cis8-! r cis8. cis16
+    d4 r r2
+    a8-! r a8. a16 cis8-! r cis8. cis16
+    d4 r r2 %40
+    a8-! r a8. a16 cis8-! r cis8. cis16
+    d4 r r2
+    a8-! r a8. a16 cis8-! r cis8. cis16
+    e1\f\fermata
+    e2 r\fermata %45
+    cis1\fermata
+    d2 r\fermata
+    R1*2
+    d1\sf %50
+    R1*7 %57
+    ais1~\sf
+    ais2\> r\!
+    ais1~\sf %60
+    ais2\> r\!
+    R1*2
+    R1\fermata
+    R1*8 %72
+    cis2\f d~
+    d cis~
+    cis h %75
+    gis a
+    a a'~
+    a4 gis h,2
+    a1~
+    a2 gis %80
+    a4 r r2
+    R1
+    r4 a cis d
+    h2 a4 e'
+    d r r2 %85
+    R1
+    r2 r4 d
+    cis1
+    d2 r
+    r4 h e d %90
+    cis? h ais h
+    e2( eis
+    fis) r4 cis(\p
+    d) r r2
+    a8-! r a8. a16 cis8-! r cis8. cis16 %95
+    d4 r r2
+    a8-! r a8. a16 cis8-! r cis8. cis16
+    d4\f r r2
+    cis2. r4
+    h1 %100
+    a4 cis8. cis16 cis4 cis
+    d2 h
+    d e
+    \tempoCredoB d4 r r2
+    R1*13 %117
+    d2 e
+    d r
+    R1*2
+    d2 e
+    d r
+    R1*2
+    d2 e
+    d4 a8. a16 a4 d
+    e1
+    d2 r\fermata \bar "|."
+  }
+}

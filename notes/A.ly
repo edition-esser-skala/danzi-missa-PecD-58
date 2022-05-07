@@ -321,3 +321,251 @@ GloriaAltoLyrics = \lyricmode {
   a --
   men. %150 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 2/2 \autoBeamOff \tempoCredo
+    \mvTr a'4\pE^\solo a8 a h4 h
+    e,4.( fis16[ g)] fis4 fis
+    gis a g8([ fis)] g a
+    g4 fis r2
+    a4 a h8. h16 h4 %5
+    e,4. fis16([ g)] fis4 fis
+    h h8 h h4( cis8) h
+    ais2 r
+    \mvTr h\fE^\tutti h4 h
+    h( ais) h r %10
+    fis4. a8 g4 e
+    e2 r
+    r4 a8 a g4 fis
+    h a g fis
+    e8. e16 e4 e4. e8 %15
+    fis4 r r2
+    fis\p g4 g
+    fis fis r2
+    fis g4 g
+    fis8. fis16 fis4 r2 %20
+    fis4.\f fis8 gis4 gis
+    g2 fis4 r
+    fis2 gis
+    a!4. a8 a2
+    a2. gis4 %25
+    a r r2
+    R1*4 %30
+    r8 \mvTr e([\f^\tuttiE a gis)] fis4 fis
+    r8 fis([ h a)] gis4 gis
+    r8 gis([ cis h)] a4 a
+    r8 a([ gis a)] h2
+    a4 e fis fis8 fis %35
+    e2.( d4)
+    cis r r2
+    fis\p g!4 g
+    fis4. fis8 e4 e
+    fis2 g4 g %40
+    fis fis r2
+    fis4. fis8 g4 g
+    fis4. fis8 e4 a
+    gis1\f\fermata
+    a2 r\fermata %45
+    g!1\fermata
+    fis2 r\fermata
+    e\p e
+    d r
+    R1 %50
+    d2\p d
+    d cis!
+    fis!4. fis8 fis4 fis
+    fis2 eis4 eis
+    eis4. eis8 fis4 fis %55
+    e2( dis)
+    dis1
+    e\sf
+    e2 r
+    e1\fE %60
+    e2 r
+    e2.\p e4
+    dis2. dis4
+    e2 r\fermata
+    R1*8 %72
+    \mvTr a2\f^\tuttiE a
+    gis gis4 gis
+    fis2 fis %75
+    eis fis
+    e4( dis) dis2
+    d d4 d
+    cis( e) fis2
+    e1 %80
+    e4 e8 e \once \tieDashed a2~
+    a4 a8 a g!4 fis
+    h a a a
+    h h8 h a4( g)
+    fis r r2 %85
+    r4 fis e d
+    g fis2.
+    g2 fis
+    fis r
+    r4 h2 a4 %90
+    g fis fis2
+    e4 e eis2
+    fis r
+    r4 fis\p g8. g16 g4
+    fis fis8 fis g4 g %95
+    fis8 fis fis fis g4 g
+    fis fis g g
+    fis2\f gis
+    g g4 r
+    fis4. fis8 gis4 gis %100
+    g2 g
+    fis e
+    fis( e)
+    \tempoCredoB fis r
+    r4 d( e fis) %105
+    e2 r
+    r4 e( fis g)
+    fis2 r
+    r4 fis( g a)
+    g2 e4 h'~ %110
+    h a8[ gis] a4 g
+    fis2 r4 h~
+    h gis e a~
+    a fis d g~
+    g e cis fis~ %115
+    fis dis h e~
+    e cis d e
+    fis2 e
+    fis r
+    R1 %120
+    r2 r4 h
+    a2 a
+    fis r
+    R1
+    r2 r4 h %125
+    a2 a
+    a r
+    g1
+    fis2 r\fermata \bar "|." %129 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem o -- mni --
+  po -- ten -- tem, fa --
+  cto -- rem coe -- li et
+  ter -- rae,
+  vi -- si -- bi -- li -- um %5
+  o -- mni -- um et
+  in -- vi -- si -- bi -- li --
+  um.
+  Fi -- li -- um
+  De -- i %10
+  u -- ni -- ge -- ni --
+  tum,
+  et ex Pa -- tre
+  na -- tum an -- te
+  o -- mni -- a sae -- cu -- %15
+  la.
+  De -- um de
+  De -- o,
+  lu -- men de
+  lu -- mi -- ne, %20
+  ge -- ni -- tum non
+  fa -- ctum,
+  per quem
+  o -- mni -- a
+  fa -- cta %25
+  sunt.
+
+  De -- scen -- dit %31
+  de __ coe -- lis,
+  de -- scen -- dit
+  de __ coe --
+  lis, de -- scen -- dit de %35
+  coe --
+  lis.
+  Et in -- car --
+  na -- tus est de
+  Spi -- ri -- tu %40
+  San -- cto
+  ex Ma -- ri -- a
+  Vir -- gi -- ne, et
+  ho --
+  mo, %45
+  ho --
+  mo
+  fa -- ctus
+  est.
+  %50
+  Cru -- ci --
+  fi -- xus
+  e -- ti -- am pro
+  no -- bis sub
+  Pon -- ti -- o Pi -- %55
+  la --
+  to
+  pas --
+  sus,
+  pas -- %60
+  sus
+  et se --
+  pul -- tus
+  est.
+
+  Cu -- ius %73
+  re -- gni non
+  e -- rit %75
+  fi -- nis,
+  cu -- ius
+  re -- gni non
+  e -- rit
+  fi -- %80
+  nis. Et in Spi --
+  ri -- tum San -- ctum,
+  Do -- mi -- num et
+  vi -- vi -- fi -- can --
+  tem, %85
+  vi -- vi -- fi --
+  can -- _
+  _ _
+  tem.
+  Qui lo -- %90
+  cu -- tus est
+  per Pro -- phe --
+  tas.
+  Con -- fi -- te -- or
+  u -- num ba -- ptis -- ma %95
+  in re -- mis -- si -- o -- nem
+  pec -- ca -- to -- rum.
+  Et ex --
+  pe -- cto
+  re -- sur -- re -- cti -- %100
+  o -- nem
+  mor -- tu --
+  o --
+  rum.
+  A -- %105
+  men,
+  a --
+  men,
+  a --
+  men, a -- _ %110
+  _ _ _
+  men, a --
+  _ _ _
+  _ _ _
+  _ _ _ %115
+  _ _ _
+  _ _ _
+  _ _
+  men,
+  %120
+  a --
+  men, a --
+  men,
+
+  a -- %125
+  men, a --
+  men,
+  a --
+  men. %129 finis
+}

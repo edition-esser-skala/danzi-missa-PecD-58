@@ -359,3 +359,236 @@ GloriaSopranoLyrics = \lyricmode {
   a --
   men. %150 finis
 }
+
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 2/2 \autoBeamOff \tempoCredo
+    R1*8 %8
+    \mvTr fis'4\f^\tuttiE fis g g
+    cis,4. d16([ e)] d4 r %10
+    d2 d
+    cis!4 cis r a8 a
+    d2. d4
+    d d cis d
+    d8. d16 d4 cis4. cis8 %15
+    d4 r r2
+    d\p cis4 cis
+    d d r2
+    d cis4 cis
+    d8. d16 d4 r2 %20
+    d4.\f d8 d4 d
+    cis2 cis4 r
+    d8 d d d d4 d
+    cis cis h h
+    cis8. cis16 cis4 h h %25
+    a r r \mvTr a\pE^\solo
+    e'2 fis4 fis
+    h,4. cis16([ d)] cis4 cis
+    dis e d8([ cis)] d e
+    cis4 cis r \mvTr e8([\fE^\tutti cis)] %30
+    a2 a8([ gis)] a([ ais)]
+    h2 h8([ ais)] h([ his)]
+    cis2 cis8([ h)] cis4
+    d2~ d8[ h e d]
+    cis4 cis h h8 h %35
+    cis2( h)
+    a4 r r2
+    d\p cis4 cis
+    d4. d8 cis4 a
+    d2 cis4 cis %40
+    d d r2
+    d4. d8 cis4 cis
+    d4. d8 cis4 cis
+    d1\f\fermata
+    cis2 r\fermata %45
+    e1\fermata
+    d2 r\fermata
+    h\p a
+    fis r
+    R1*4 %53
+    h2\p h
+    h ais %55
+    ais4. ais8 ais4 ais
+    ais2 gis
+    cis1\sf
+    cis2 r
+    ais1\f %60
+    ais2 r
+    gis2.\p gis4
+    gis2. gis4
+    gis2 r\fermata
+    R1*8 %72
+    \mvTr cis2\f^\tuttiE d4 d
+    d4. d8 cis2
+    cis h4 h %75
+    h4. h8 a4 a
+    a4. a8 a4 a
+    a gis gis2
+    a4 a a a
+    a a8 a gis4. gis8 %80
+    a4 r r a8 a
+    d4 d8 d d4 d
+    d4. d8 cis4 d
+    d d8 d cis2
+    d4 r r fis,8 fis %85
+    h4 h h4. h8
+    h2 ais4 h
+    h2( ais)
+    h r
+    r4 h8 h e4 d! %90
+    cis( h) ais h
+    h1
+    ais2 r4 cis\p
+    d2 cis4 cis
+    d4. d8 cis4 a %95
+    d d cis8 cis cis cis
+    d4. d8 cis4 cis
+    d8.\f d16 d4 d d8 d
+    cis2 cis4 r
+    d4. d8 d4 d %100
+    cis2 cis
+    d d
+    d( cis)
+    \tempoCredoB d d
+    d d4 d %105
+    d cis8([ d)] \once \tieDashed e2~
+    \once \tieDashed e1~
+    e4 d8([ e)] fis2
+    \once \tieDashed fis1~
+    fis4 e8[ dis] e4 d %110
+    cis2. \once \tieDashed e4~
+    e d8[ cis] d2~
+    d4 cis8[ h] cis4 \once \tieDashed c~
+    c h8[ a] h2~
+    h4 ais8[ gis] ais4 \once \tieDashed a~ %115
+    a gis8[ fis] gis4 \once \tieDashed g~
+    g fis8[ e] fis4 d'
+    d2 cis
+    d r
+    R1 %120
+    r2 r4 d
+    d2 cis
+    d r
+    R1
+    r2 r4 d %125
+    d2 cis
+    d r
+    cis1
+    d2 r\fermata \bar "|." %129 finis
+  }
+}
+
+CredoSopranoLyrics = \lyricmode {
+  Et in u -- num %9
+  Do -- mi -- num %10
+  Je -- sum
+  Chri -- stum, et ex
+  Pa -- tre
+  na -- tum an -- te
+  o -- mni -- a sae -- cu -- %15
+  la.
+  De -- um de
+  De -- o,
+  lu -- men de
+  lu -- mi -- ne, %20
+  ge -- ni -- tum non
+  fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem
+  o -- mni -- a fa -- cta %25
+  sunt. Qui
+  pro -- pter nos
+  ho -- mi -- nes et
+  pro -- pter no -- stram sa --
+  lu -- tem de -- %30
+  scen -- dit __ de __
+  coe -- lis, __ de --
+  scen -- dit __ de
+  coe --
+  lis, de -- scen -- dit de %35
+  coe --
+  lis.
+  Et in -- car --
+  na -- tus est de
+  Spi -- ri -- tu %40
+  San -- cto
+  ex Ma -- ri -- a
+  Vir -- gi -- ne, et
+  ho --
+  mo, %45
+  ho --
+  mo
+  fa -- ctus
+  est.
+
+  Cru -- ci -- %54
+  fi -- xus %55
+  e -- ti -- am pro
+  no -- bis,
+  pas --
+  sus,
+  pas -- %60
+  sus
+  et se --
+  pul -- tus
+  est.
+
+  Se -- det ad %73
+  dex -- te -- ram
+  Pa -- tris, et %75
+  i -- te -- rum ven --
+  tu -- rus est cum
+  glo -- ri -- a
+  iu -- di -- ca -- re
+  vi -- vos et mor -- tu -- %80
+  os. Et in
+  Spi -- ri -- tum San -- ctum,
+  Do -- mi -- num et
+  vi -- vi -- fi -- can --
+  tem, qui ex %85
+  Pa -- tre Fi -- li --
+  o -- que pro --
+  ce --
+  dit.
+  Qui lo -- cu -- tus %90
+  est __ per Pro --
+  phe --
+  tas. Et
+  u -- nam ca --
+  tho -- li -- cam et %95
+  a -- po -- sto -- li -- cam Ec --
+  cle -- si -- am. Con --
+  fi -- te -- or u -- num ba --
+  ptis -- ma
+  in re -- mis -- si -- %100
+  o -- nem
+  pec -- ca --
+  to --
+  rum. Et
+  vi -- tam ven --  %105
+  tu -- ri __ sae --
+
+  cu -- li,
+  a --
+  _ _ _ %110
+  _ _
+  _ _
+  _ _ _
+  _ _
+  _ _ _ %115
+  _ _ _
+  _ men, a --
+  men, a --
+  men,
+  %120
+  a --
+  men, a --
+  men,
+
+  a -- %125
+  men, a --
+  men,
+  a --
+  men. %129 finis
+}

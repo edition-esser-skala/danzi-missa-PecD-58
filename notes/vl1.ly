@@ -189,3 +189,138 @@ GloriaViolinoI = {
     <d a' fis'> r r\fermata \bar "|." %150 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \major \time 2/2 \tempoCredo
+    a'2(\p h)
+    e,4.( fis16 g) fis4 fis
+    gis( a) g4. a8
+    g4( fis) r8 a, d( fis)
+    a2( h) %5
+    e,4.( fis16 g) fis4 fis
+    h h2 cis8( h)
+    ais2 r
+    r8 fis'16\f g fis d cis h g a g fis e d cis h
+    cis h cis d e fis gis ais h4 d %10
+    c16 h a g fis e d c h cis d dis e fis d e
+    cis4 <a a'> r2
+    r4 d'8 d g16( a) h-! g-! fis( g) a-! fis-!
+    h( cis) d h a( cis) d a g( a) h g fis( g) a fis
+    e d' e, d' e, d' e, d' e, cis' e, cis' e, cis' e, cis' %15
+    <d d,>4 r r \tuplet 3/2 4 { a8\p h cis }
+    \tuplet 3/2 4 { d[ cis h] a( gis) h a[ g fis] e( g) cis, }
+    d4 r r2
+    \tuplet 3/2 4 { d'8[ cis h] a( gis) h a[ g fis] e( g) cis, }
+    d4 r r2 %20
+    \tuplet 3/2 4 { d'8[\f cis h] ais( cis) h a[ gis fis] e( fis) d }
+    cis4 r r2
+    \tuplet 3/2 4 { d'8[ cis h] ais( cis) h a[ gis fis] e( fis) d }
+    \tuplet 3/2 4 { cis a' a a[ a a] h, a' a a[ a a] }
+    \tuplet 3/2 4 { cis, a' a a[ a a] a a a gis[ gis gis] } %25
+    \tuplet 3/2 4 { a e cis a[ e cis] } a4 a'\p
+    e'2 fis
+    h,4.( cis16 d) cis2
+    dis4 e d4.( e8)
+    cis4 cis r8 cis16(\f d) e( cis) e( cis) %30
+    a8 e' a gis fis2~
+    fis8 fis h a gis2~
+    gis8 gis cis h \once \tieDashed a2~
+    a8 a gis a h2
+    a8 a4 a a a8 %35
+    a a a a gis gis gis gis
+    a4 r r \tuplet 3/2 4 { a8\p h cis }
+    \tuplet 3/2 4 { d[ cis h] a( gis) h a[ g fis] e( g) cis, }
+    d4 r r2
+    \tuplet 3/2 4 { d'8[ cis h] a( gis) h a[ g fis] e( g) cis, } %40
+    d4 r r2
+    \tuplet 3/2 4 { d'8[ cis h] a( gis) h a[ g fis] e( g) cis, }
+    d4 r r a
+    d1\f\fermata
+    cis2 r\fermata %45
+    e1\fermata
+    d2 r\fermata
+    r4 h\p r a
+    fis8 fis4 fis fis fis8
+    f\sf f4 f f f8~ %50
+    f4 r r2
+    R1*2
+    r8 h\p h h h h h h
+    h h h h ais ais ais ais %55
+    ais ais ais ais ais ais ais ais
+    ais ais ais ais gis gis gis gis
+    r4 cis'8\sf r ais r g! r
+    e\> r cis r ais r g!\! r
+    r4 cis'8\sf r ais r g! r %60
+    e\> r cis r ais r ais\! r
+    r4 gis\pp gis gis
+    r gis gis gis
+    gis2 r\fermata
+    e'2\pE fis %65
+    h,4.( cis16 d) cis4 cis
+    dis e2( d4)
+    cis2 r8 e,( a cis)
+    e2 fis
+    h,4.( cis16 d) cis4 cis %70
+    cis4. d16 cis cis4( his)
+    cis2 r
+    r4 fis4.\fE d8 h'4~
+    h8 gis e4. cis8 a'4~
+    a8 fis d4. h8 gis'4~ %75
+    gis8 gis16 a gis eis dis cis a' h cis h a gis fis e
+    e!4( dis) r2
+    d'!16 cis d cis d cis h a gis a h a gis fis e d
+    cis a' a a a a a a a a a a a a a a
+    a a a a a a a a gis gis gis gis gis gis gis gis %80
+    a4 r r2
+    r4 d,8 d g!16 a h g fis g a fis
+    h cis d h a cis d a g a h g fis g a fis
+    e4 d'8. d16 e,4 cis'
+    d r r2 %85
+    r4 h,8 h e16 d e fis d cis d h
+    g' fis g a fis e fis g e d e fis d cis d e
+    cis4 h'8. h16 cis,4 <cis ais'>
+    <h h'>2 r
+    r r4 fis'8 fis %90
+    ais4 h8 h cis4 d
+    h h8. h16 cis,4 h'
+    ais2 r4 \tuplet 3/2 4 { a8\p h cis }
+    \tuplet 3/2 4 { d[ cis h] a( gis) h a[ g fis] e( g) cis, }
+    d4 r r2 %95
+    \tuplet 3/2 4 { d'8[ cis h] a( gis) h a[ g fis] e( g) cis, }
+    d4 r r2
+    \tuplet 3/2 4 { d'8[\f cis h] ais( cis) h a[ gis fis] e( fis) d }
+    cis4 r r2
+    \tuplet 3/2 4 { d'8[ cis h] ais( cis) h a[ gis fis] e( fis) d } %100
+    cis4 r r e
+    \tuplet 3/2 4 { fis8 d' cis d[ cis d] e, d' cis d[ cis d] }
+    \tuplet 3/2 4 { fis, d' d d[ d d] cis cis cis cis[ cis cis] }
+    \tempoCredoB d4 r d,2~
+    d d~ %105
+    d4 cis8 d e2~
+    e e~
+    e4 d8 e fis2~
+    fis fis~
+    fis4 e8 dis e4 d %110
+    cis2. e4~
+    e d8 cis d4 h'
+    e,2. a4
+    d,2. g4
+    cis,2. fis4 %115
+    h,2. e4
+    a,2 d~
+    d cis
+    d r4 h'~\p
+    h a8 gis a4 g %120
+    fis2. e4\f
+    fis2 e
+    d r4 h'~\p
+    h a8 gis a4 g
+    fis2. e4\fE %125
+    fis2 e
+    d r
+    <a' cis, e,> r
+    <fis a, d,> r\fermata \bar "|." %129 finis
+  }
+}
