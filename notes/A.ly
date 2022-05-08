@@ -569,3 +569,297 @@ CredoAltoLyrics = \lyricmode {
   a --
   men. %129 finis
 }
+
+OffertoriumAlto = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \autoBeamOff \tempoOffertorium
+    R1*5 %5
+    r2 r4 \mvTr d\p^\tuttiE
+    d4. d8 d4 d
+    e e e2
+    e2. e4
+    d2 r4 d8 d %10
+    e4 e e4. e8
+    f4 f f f
+    f2( e)
+    f4 r r f
+    fis4. fis8 g4 g %15
+    fis2 c4( d8[ es)]
+    d4 r g g
+    g g f!2
+    r4 g f2
+    g4 r g f %20
+    e!2 f
+    e2 e
+    f1
+    e
+    f4 r r f\f %25
+    a2 gis
+    a a
+    g g
+    f4 f2 fis4
+    g g2 gis4 %30
+    a a a a
+    b b b a
+    gis a a2~
+    a4 b b( a)
+    a r r2 %35
+    r4 f\p f4. f8
+    f2 g
+    f2. es4
+    d2 d4 d
+    es es es es %40
+    d d d g
+    gis1
+    a4 r a a
+    a2( gis)
+    a4 r e e %45
+    f1
+    e2 d4 d \noBreak
+    cis2( d) \bar "|"
+    \key d \major \time 2/2 \newSpacingSection
+      cis r4\fermata \tempoOffertoriumB r \noBreak
+    r a'\f fis h %50
+    g e a2
+    fis4 d g2~
+    g4 g fis2
+    e2. a4
+    h1 %55
+    a
+    h2 a~
+    a4 g!8[ fis] e4 a
+    fis2. fis4
+    e1 %60
+    d4. d8 d2
+    r r4 d
+    a'2 a
+    a4. a8 gis2
+    gis fis %65
+    gis4 e a2~
+    a g~
+    g \once \tieDashed fis~
+    fis e
+    d4 a' fis h %70
+    g e a2
+    fis4( d) g2
+    e4( cis fis) e
+    d d h e
+    cis a d2 %75
+    r4 e cis fis
+    d h e2
+    r4 fis d g
+    e( cis fis) e
+    d r r2 %80
+    R1*4
+    r4 fis d g %85
+    e cis fis2
+    r4 fis( h,) e
+    cis a d2
+    e4. e8 e2
+    r4 d( h) e %90
+    e2. r4
+    r2 r4 e
+    a2 a
+    a4. a8 gis2
+    gis fis %95
+    gis4 e a2
+    a4. a8 gis2
+    r4 a( fis) h
+    gis e a2
+    fis2. fis4 %100
+    e1
+    r2 r4 e
+    a2 a
+    fis4. fis8 e2
+    r e %105
+    e4. e8 d2
+    r4 a'( f) h
+    gis( e a) g
+    fis!2 r
+    R1*6 %115
+    r4 d h e
+    cis! a d2
+    r4 e cis fis
+    dis h e2
+    r4 fis( d) g! %120
+    e( cis) fis e
+    d( h e) d
+    cis2. cis4
+    d a'(\f fis) h
+    g e a2 %125
+    fis4( d) g2
+    e4 cis fis2
+    d4 h e2
+    \once \tieDashed d1~
+    d2 cis %130
+    d1
+    e
+    fis
+    g2 g
+    a2. a4 %135
+    h1
+    r4 a fis h
+    g e a2
+    r4 fis d g
+    e cis fis2 %140
+    r4 d( h) e
+    cis a d2
+    d cis
+    d r
+    R1*3 %147
+    r2 r4 fis
+    e2. e4
+    fis2 r %150
+    R1*3
+    r2 r4 fis
+    e2. e4 %155
+    fis2 r4 a
+    a2. a4
+    a2 r\fermata \bar "|." %158 finis
+  }
+}
+
+OffertoriumAltoLyrics = \lyricmode {
+  Non %6
+  mor -- tu -- i lau --
+  da -- bunt te
+  Do -- mi --
+  ne ne -- que %10
+  o -- mnes qui de --
+  scen -- dunt in in --
+  fer --
+  num, non
+  mor -- tu -- i lau -- %15
+  da -- bunt __
+  te ne -- que
+  o -- mnes qui
+  de -- scen --
+  dunt in in -- %20
+  fer -- num,
+  in in --
+  fer --
+  _
+  num, non %25
+  mor -- tu --
+  i lau --
+  da -- bunt
+  te Do -- mi --
+  ne ne -- que %30
+  o -- mnes qui de --
+  scen -- dunt in in --
+  fer -- num, in __
+  in -- fer --
+  num, %35
+  non mor -- tu --
+  i lau --
+  da -- bunt
+  te ne -- que
+  o -- mnes qui de -- %40
+  scen -- dunt in in --
+  fer --
+  num, in in --
+  fer --
+  num, in in -- %45
+  fer --
+  num, in in --
+  fer --
+  num,
+  sed nos qui %50
+  vi -- vi -- mus
+  be -- ne -- di --
+  ci -- mus,
+  be -- ne --
+  di -- %55
+  _
+  _ _
+  _  ci -- mus
+  Do -- mi --
+  no, %60
+  Do -- mi -- no,
+  sed
+  nos qui
+  vi -- vi -- mus
+  be -- ne -- %65
+  di -- ci -- mus __
+  Do --
+  _
+  mi --
+  no, sed nos qui %70
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci --
+  mus, sed nos qui
+  vi -- vi -- mus, %75
+  sed nos qui
+  vi -- vi -- mus,
+  sed nos qui
+  vi -- vi --
+  mus, %80
+
+  sed nos qui %85
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi -- no,
+  Do -- mi -- %90
+  no,
+  sed
+  nos qui
+  vi -- vi -- mus
+  be -- ne -- %95
+  di -- ci -- mus
+  Do -- mi -- no,
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi -- %100
+  no,
+  sed
+  nos qui
+  vi -- vi -- mus,
+  qui %105
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci --
+  mus,
+
+  sed nos qui %116
+  vi -- vi -- mus,
+  sed nos qui
+  vi -- vi -- mus
+  be -- ne -- %120
+  di -- ci -- mus,
+  be -- ne --
+  di -- ci --
+  mus, be -- ne --
+  di -- ci -- mus, %125
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi -- no
+  ex __
+  hoc %130
+  nunc
+  et
+  us --
+  que in
+  sae -- cu -- %135
+  lum,
+  sed nos qui
+  vi -- vi -- mus,
+  sed nos qui
+  vi -- vi -- mus %140
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi --
+  no
+
+  in %148
+  sae -- cu --
+  lum, %150
+
+  in %154
+  sae -- cu -- %155
+  lum, in
+  sae -- cu --
+  lum. %158 finis
+}

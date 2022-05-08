@@ -329,3 +329,161 @@ CredoViolinoII = {
     <d fis, a,> r\fermata \bar "|." %129 finis
   }
 }
+
+OffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoOffertorium
+    d2\f f
+    a d,8.[ cis16 d8. f16]
+    e8.[ cis16 cis8. d16] es2
+    d8.[ h16 h8. c16] d2
+    e4 d2 cis8. e16 %5
+    d8 d[\p d d] r d d d
+    r d d d r d d d
+    r e e e r e e e
+    r e e e r e e e
+    r d d d r d d d %10
+    r e e e r e e e
+    r f f f r f f f
+    r f f f r e e e
+    r c c c r f f f
+    r fis fis fis r g g g %15
+    r fis fis fis r c( d es)
+    r d d d r g g g
+    r g g g r f! f f
+    r g g g r f f f
+    r g g g r es( d) d-! %20
+    r cis cis cis r d d d
+    r d d d r d d d
+    r d d d r f f f
+    r e e e r e e e
+    d2\f f %25
+    a f8.[ e16 f8. d16]
+    cis4 a'8. h16 c2
+    h4 g8. a16 b2
+    a4 c8. c16 d4 c
+    h d8. d16 e!4 d %30
+    cis e8. e16 f4 es
+    d d8. d16 d4 d
+    d( cis) r8. e16[ e8. e16]
+    e4 d2 cis4
+    d8 d,[\p d d] r d d d %35
+    r es es es r es es es
+    r d d d r c c c
+    r d d d r es es es
+    r d d d r d d d
+    r es es es r es es es %40
+    r d d d r d d d
+    r d d d r d d d
+    r cis cis cis r cis cis cis
+    r d d d r f f f
+    r e cis cis r cis cis cis %45
+    r d d d r f f f
+    e8.[ e16 e8. e16] f2 \noBreak
+    e8.[ e16 e8. e16] f2 \bar "|"
+    \key d \major \time 2/2 \newSpacingSection
+      e r4\fermata \tempoOffertoriumB r \noBreak
+    r4 a'\f fis h %50
+    g e a2
+    fis4 d g2~
+    g fis
+    e2. r4
+    R1*3 %57
+    r2 r4 a,
+    d2 d
+    d4. d8 cis2~ %60
+    cis h
+    cis4 a d2
+    r4 d cis fis
+    d h e2
+    cis4 a d2~ %65
+    d4 e8 d cis2
+    h2. cis8 h
+    a2. h8 a
+    g!2. a8 g
+    fis4 a d2 %70
+    e1
+    d
+    cis
+    h
+    a4 r r2 %75
+    R1*3
+    r2 r4 fis
+    h2 h %80
+    h4. h8 a!2
+    a gis
+    ais4 fis h2~
+    h ais
+    h4 r r2 %85
+    R1*2
+    r2 r4 d!
+    h e cis a
+    r d h e %90
+    e2. r4
+    r d h e
+    cis a r2
+    R1*2 %95
+    r2 r4 a
+    e'2 e
+    e4. e8 d2~
+    d cis~
+    cis h4 a %100
+    gis2( a4) r
+    r2 r4 e
+    a2 a
+    fis4. fis8 e2
+    r e~ %105
+    e d
+    R1*3
+    r4 c' a d %110
+    h g r2
+    r4 c a d
+    h g c2
+    r4 c h e
+    c a d c %115
+    h2 r
+    r4 a fis h
+    gis e a2
+    r4 h gis cis
+    ais fis h2~ %120
+    h a~
+    a g!~
+    g4 fis8 g a4 g
+    fis2 d'\fE
+    cis4. cis8 cis2 %125
+    h1
+    a
+    g
+    fis2( f)
+    e1 %130
+    fis!2 d
+    e1
+    fis
+    g
+    a %135
+    h2. e4
+    cis a d2~
+    d cis~
+    cis h~
+    h a~ %140
+    a g~
+    g f
+    e1
+    fis!2 r4 a\p
+    d2 d %145
+    d4. d8 cis2~
+    cis h
+    a2.\f d4~
+    d r <a g'> r
+    <a fis'>2 r %150
+    R1
+    r4 e'2\p cis4
+    a d2 h4
+    a2.\f d4~
+    d r <cis e,> r %155
+    <d fis,>2 r
+    <cis e,> r
+    <d fis,> r\fermata \bar "|." %158 finis
+  }
+}

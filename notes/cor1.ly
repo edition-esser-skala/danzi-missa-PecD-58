@@ -209,3 +209,74 @@ CredoCornoI = {
     c2 r\fermata \bar "|." %129 finis
   }
 }
+
+OffertoriumCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOffertorium
+    c'2\f r
+    g c
+    d r
+    \pao c r
+    d4 c d d %5
+    c r r2
+    R1*18 %24
+    c2\f c %25
+    c \pao c
+    d4 r \pa c2~
+    c4 \pd r r2
+    R1*3 %31
+    r4 \pa c8. c16 c4 c
+    d2 \pd d
+    d4^\critnote c2 \pao g4
+    c4 r r2 %35
+    R1*7 %42
+    g1~\p
+    g~
+    g~ %45
+    g~
+    g~
+    g~ \bar "|"
+    \time 2/2 \newSpacingSection
+      g2 r4\fermata \tempoOffertoriumB r \noBreak
+    R1*3 %52
+    d'2\f c
+    \pao g2. r4
+    R1*3 %57
+    r2 d'
+    c r
+    R1*2 %61
+    d2 \pa c
+    g2. \pd r4
+    R1*4 %67
+    d'2 \once \tieDashed e~
+    e \pa d
+    c4 \pd r r2 %70
+    R1*17 %87
+    d2 e
+    d1
+    c2 r %90
+    R1*32 %122
+    r2 d\f
+    \pao c4 r r2
+    R1*4 %128
+    r2 \pao c
+    d1 %130
+    \pao c2 r
+    R1*9 %140
+    r2 \pao d
+    d \pao c
+    d1
+    c2 r
+    R1*3 %147
+    d2\f e
+    d1
+    c2 r %150
+    R1*3
+    d2\f e
+    d1 %155
+    c2 r4 c
+    d1
+    c2 r\fermata \bar "|." %158 finis
+  }
+}

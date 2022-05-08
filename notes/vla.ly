@@ -343,3 +343,159 @@ CredoViola = {
     d r\fermata \bar "|." %129 finis
   }
 }
+
+OffertoriumViola = {
+  \relative c' {
+    \clef alto
+    \key d \minor \time 4/4 \tempoOffertorium
+    d2\f r8. f16[ d8. a16]
+    f4 r h2
+    a4 r a2
+    g4 r g2
+    g4 f b!8.[ e,16 a8. g16] %5
+    f8 a[\p a a] r a a a
+    r a a a r a a a
+    r b b b r b b b
+    r b b b r a a a
+    r a a a r a a a %10
+    r g g g r c! c c
+    r c c c r d d d
+    r c c c r g g g
+    r f f f r c' c c
+    r c c c r b b b %15
+    r c c c r c( a) a-!
+    r b b b r d d d
+    r es es es r d d d
+    r es es es r d d d
+    r b b b r b h h %20
+    r cis! a a r a a a
+    r e' e e r e e e
+    r f f f r a, a a
+    r a a a r a a a
+    f2\f r8. f'16[ d8. a16] %25
+    f4 r d8.[ cis16 d8. f16]
+    a4 r r8. a'16[ a8. a16]
+    g4 r r8. g16[ g8. g16]
+    f4 f2 d8. d16
+    d4 g2 e8. e16 %30
+    e4 a2 f8. f16
+    f4 f8. f16 f4 f
+    e!2 a
+    a4 b8. b16 b4 a
+    f8 a,[\p a a] r b b b %35
+    r c! c c r c c c
+    r b b b r g g g
+    r b b b r c c c
+    r b b b r b b b
+    r c c c r c c c %40
+    r b b b r g g g
+    r f! f f r f( d) d-!
+    a'4 r a r
+    a r a r
+    a r a r %45
+    a r a r
+    a8.[ cis16 cis8. cis16] d2 \noBreak
+    cis8.[ cis16 cis8. cis16] d2 \bar "|"
+    \key d \major \time 2/2 \newSpacingSection
+      cis r4\fermata \tempoOffertoriumB a\f \noBreak
+    d2 d %50
+    d4. d8 cis2~
+    cis h
+    cis4 a d2
+    r r4 a'
+    h1 %55
+    a
+    h2 a4 cis,
+    d2 e
+    d h~
+    h a~ %60
+    a g!
+    e' d
+    e2. r4
+    R1*5 %68
+    r2 r4 a,
+    d2 d %70
+    d4. d8 cis2~
+    cis h~
+    h a~
+    a gis
+    a4 r r2 %75
+    R1*4
+    r4 fis' d g %80
+    e cis fis2
+    dis4 h e2~
+    e d
+    cis4 d e fis8 e
+    d4 h r2 %85
+    r4 e cis fis
+    dis h e2
+    e d
+    r r4 a
+    d2 d %90
+    d4. d8 cis2
+    h e
+    r4 e cis fis
+    d h e2
+    cis4 a d2~ %95
+    d cis
+    h1
+    a2 h~
+    h a
+    a h4 cis %100
+    h2 a
+    d4 cis8 d e4 d
+    cis1
+    h~
+    h %105
+    a~
+    a2 d~
+    d cis
+    r4 d h e
+    c a d2 %110
+    r4 d h e
+    c a d2
+    r4 d h c
+    a2 g
+    e' d %115
+    d2. h4
+    a2. fis'4
+    e2. cis4
+    h2. gis'4
+    fis2 r %120
+    R1*2
+    r2 r4 a,\fE
+    d2 d4 h
+    e cis a d~ %125
+    d h g cis~
+    cis a fis h~
+    h g e a~
+    a2 h
+    a1 %130
+    r4 a-\critnote fis h
+    g e cis'2
+    r4 cis a d
+    h g e'2
+    r4 e cis fis %135
+    d h g'2
+    e fis
+    e1
+    d
+    cis %140
+    h
+    a2 h
+    a1~
+    a2 r
+    R1*3 %147
+    e'2\f d
+    h4 r a r
+    d2 r4 a\p %150
+    d2 d~
+    d4. d8 cis2
+    c h
+    e\f d
+    h4 r a r %155
+    a2 r
+    a r
+    d, r\fermata \bar "|." %158 finis
+  }
+}

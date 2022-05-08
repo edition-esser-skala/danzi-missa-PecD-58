@@ -546,3 +546,282 @@ CredoBassoLyrics = \lyricmode {
   a --
   men. %129 finis
 }
+
+OffertoriumBasso = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \autoBeamOff \tempoOffertorium
+    R1*5 %5
+    r2 r4 \mvTr d\p^\tuttiE
+    d4. d8 d4 d
+    d d d2
+    cis2. cis4
+    d2 r4 d8 d %10
+    c!4 c b4. b8
+    a4 a b b
+    c1
+    f4 r r f
+    d4. d8 d4 d %15
+    d2 fis
+    g4 r g g
+    g g as2
+    r4 g as2
+    g4 r g gis %20
+    a( g) f2
+    g g
+    \once \tieDashed a1~
+    a
+    d,4 r r2 %25
+    r4 d\f b4. b8
+    a2 d
+    g, c!
+    f4 a( b) as
+    g h( c) b %30
+    a cis d c
+    b b b b
+    b a cis, cis
+    d( b g a)
+    d r r2
+    r4 a'\p a4. a8
+    b2 es,
+    f f
+    b, b'4 b
+    a a a a
+    b b b b
+    b1
+    a4 r a a
+    a1
+    a4 r a, a
+    \once \tieDashed a1~
+    \once \tieDashed a~ \noBreak
+    a \bar "|"
+    \key d \major \time 2/2 \newSpacingSection
+      a2 r4\fermata \tempoOffertoriumB r \noBreak
+    R1*3
+    r2 r4 d\f
+    a'2 a
+    a4. a8 gis2 %55
+    gis fis
+    gis4 e a2
+    h cis
+    d4 a fis h
+    gis e a2 %60
+    fis4 d g2~
+    g4 a8[ g] fis4 d
+    a1
+    h2 h'
+    a1 %65
+    h4( gis a) fis
+    d( h) e d
+    cis a \once \tieDashed d2~
+    d4 h cis h8([ cis])
+    d2 r %70
+    R1*4
+    r4 a' fis h %75
+    gis e a2
+    r4 h( gis) cis
+    ais fis h2
+    h ais
+    h2 r %80
+    R1*3
+    r2 r4 fis
+    h2 h %85
+    h4. h8 a!2
+    a gis
+    g4. g8 fis2
+    g a
+    h gis %90
+    a a~
+    a gis
+    a r
+    R1*4 %97
+    r2 r4 h,
+    e2 e
+    e4. e8 d2 %100
+    d cis
+    h2. h4
+    a2 a'~
+    a gis
+    g1~ %105
+    g2 fis
+    f1
+    e2. e4
+    d2 r
+    r r4 d %110
+    g2 g
+    g4. g8 fis2
+    fis e
+    fis4 d g2
+    g fis %115
+    g2. g4
+    e2( d)
+    h a
+    fis' e
+    cis h %120
+    cis1
+    h2( h')
+    a1
+    d,2 r4 g\f
+    e( a fis) d %125
+    g2 e4 cis
+    fis2( d4) h
+    e2 cis4 a
+    d2 gis,
+    a1~ %130
+    a~
+    a~
+    a~
+    a~
+    a~ %135
+    a~
+    a~
+    a~
+    a~
+    a~ %140
+    a~
+    a2 gis
+    a2. a4
+    d2 r
+    R1*3 %147
+    r2 r4 h'
+    g2 a
+    d, r %150
+    R1*3
+    r2 r4 h'
+    g2 a %155
+    d, r4 d
+    a'2. a4
+    d,2 r\fermata \bar "|." %158 finis
+  }
+}
+
+OffertoriumBassoLyrics = \lyricmode {
+  Non %6
+  mor -- tu -- i lau --
+  da -- bunt te
+  Do -- mi --
+  ne ne -- que %10
+  o -- mnes qui de --
+  scen -- dunt in in --
+  fer --
+  num, non
+  mor -- tu -- i lau -- %15
+  da -- bunt
+  te ne -- que
+  o -- mnes qui
+  de -- scen --
+  dunt in in -- %20
+  fer -- num,
+  in in --
+  fer --
+
+  num, %25
+  non mor -- tu --
+  i lau --
+  da -- bunt
+  te Do -- mi --
+  ne ne -- que %30
+  o -- mnes qui de --
+  scen -- dunt in in --
+  fer -- num, in in --
+  fer --
+  num, %35
+  non mor -- tu --
+  i lau --
+  da -- bunt
+  te ne -- que
+  o -- mnes qui de -- %40
+  scen -- dunt in in --
+  fer --
+  num, in in --
+  fer --
+  num, in in -- %45
+  fer --
+
+  num, %49
+
+  sed %53
+  nos qui
+  vi -- vi -- mus %55
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi --
+  no, sed nos qui
+  vi -- vi -- mus %60
+  be -- ne -- di --
+  _ ci -- mus
+  Do --
+  _ mi --
+  no, %65
+  be -- ne --
+  di -- ci -- mus
+  Do -- _ _
+  _ _ mi --
+  no, %70
+
+  sed nos qui %75
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi --
+  no, %80
+
+  sed %84
+  nos qui %85
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci -- mus
+  Do -- _
+  _ mi -- %90
+  no, Do --
+  mi --
+  no,
+
+  sed %98
+  nos qui
+  vi -- vi -- mus %100
+  be -- ne --
+  di -- ci --
+  mus, be --
+  ne --
+  di -- %105
+  ci --
+  mus
+  Do -- mi --
+  no,
+  sed %110
+  nos qui
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci -- mus
+  Do -- mi -- %115
+  no ex
+  hoc __
+  nunc et
+  us -- _
+  _ que %120
+  in
+  sae --
+  cu --
+  lum, sed
+  nos __ qui %125
+  vi -- vi -- mus
+  be -- ne --
+  di -- ci -- mus
+  Do -- _
+  _ %130
+
+  _ %142
+  _ mi --
+  no,
+
+  in %148
+  sae -- cu --
+  lum, %150
+
+  in %154
+  sae -- cu -- %155
+  lum, in
+  sae -- cu --
+  lum. %158 finis
+}

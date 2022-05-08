@@ -214,3 +214,69 @@ CredoOboeII = {
     d2 r\fermata \bar "|."
   }
 }
+
+OffertoriumOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoOffertorium
+    d'2\f d
+    a h
+    a1
+    g2 d'
+    cis4 d2 cis4 %5
+    d r r2
+    R1*18 %24
+    r2 f,\f %25
+    a d
+    cis4 r a2
+    g4 r g2
+    f4 r r2
+    R1*2 %31
+    r4 f'8. f16 f4 f
+    d( cis) e2
+    e4 d2 cis4
+    d r r2 %35
+    R1*13 \bar "||" %48
+    \key d \major \time 2/2 \newSpacingSection
+      r2 r4\fermata \tempoOffertoriumB r \noBreak
+    R1*3 %52
+    cis2\fE d
+    d cis4 r
+    R1*3 %57
+    r2 a
+    d r
+    R1*2 %61
+    cis2 d
+    d( cis4) r
+    R1*4 %67
+    e2 d
+    d e
+    d4 r r2 %70
+    R1*17 %87
+    cis2 d
+    d cis
+    d r %90
+    R1*32 %122
+    cis1^\critnote
+    d4 r r2
+    R1*4 %128
+    r2 d\f
+    d cis %130
+    d r
+    R1*9 %140
+    r2 e
+    cis d~
+    d cis
+    d r
+    R1*3 %147
+    a1\f
+    h2 cis
+    d r %150
+    R1*3
+    a1\f
+    h2 cis %155
+    d r4 d
+    cis1
+    d2 r\fermata \bar "|." %158 finis
+  }
+}

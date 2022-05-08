@@ -209,3 +209,74 @@ CredoCornoII = {
     c,2 r\fermata \bar "|." %129 finis
   }
 }
+
+OffertoriumCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOffertorium
+    c2\f r
+    c c
+    g' r
+    c r
+    g4 c2 g4 %5
+    c, r r2
+    R1*18 %24
+    c2\f c %25
+    c c'
+    g4 r c2~
+    c4 r r2
+    R1*3 %31
+    r4 c8. c16 c4 c
+    d2 g,
+    c2. g4
+    c, r r2 %35
+    R1*7 %42
+    g1~\p
+    g~
+    g~ %45
+    g~
+    g~ \noBreak
+    g~ \bar "|"
+    \time 2/2 \newSpacingSection
+      g2 r4\fermata \tempoOffertoriumB r \noBreak
+    R1*3 %52
+    g'2\f c,
+    g'2. r4
+    R1*3 %57
+    r2 g
+    c, r
+    R1*2 %61
+    g'2 c
+    g2. r4
+    R1*4 %67
+    g2 c~
+    c d
+    c4 r r2 %70
+    R1*17 %87
+    g2 c
+    d g,
+    e r %90
+    R1*32 %122
+    r2 g\f
+    c4 r r2
+    R1*4 %128
+    r2 c
+    g1 %130
+    c2 r
+    R1*9 %140
+    r2 d
+    g, c
+    g1
+    c,2 r
+    R1*3 %147
+    g'2\f c
+    c g
+    c, r %150
+    R1*3
+    g'2\f c
+    c g %155
+    c, r4 c
+    g'1
+    c,2 r\fermata \bar "|." %158 finis
+  }
+}

@@ -216,3 +216,98 @@ CredoOboeI = {
     fis2 r\fermata \bar "|." %129 finis
   }
 }
+
+OffertoriumOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoOffertorium
+    d'2\f d
+    f gis
+    a fis
+    g!1
+    g4 f e a %5
+    d, r r8 a'(-\dolce f) e
+    d2 r8 a'( g) f
+    dis4( e) r8 b'( g) f
+    e2 r8 b'( a) g
+    e4( f) r8 f f f %10
+    fis4( g) r8 g e c
+    c'4.( a8) g( d b' g)
+    f4.( a8) c, c( d e)
+    g4( f) r8 a, a'( g)
+    fis2 g4.(\trill fis16 g) %15
+    a4. es8 \appoggiatura f es4( d8 c)
+    b4 b'2 a8 g
+    f( es) es4 r d
+    f8( es) es4 r d
+    f8( es) es2 d4 %20
+    cis2 d16( e) f( g) a( h) cis( d)
+    c8( b a g) f( e g b)
+    a d4 a f d8
+    \afterGrace e1\trill { d16[ e] }
+    d4 r d2\f %25
+    f gis
+    a4. g8 fis2
+    g4. f8 e2
+    f4 r r2
+    R1*2 %31
+    r4 b8. b16 b4 a
+    gis( a) g2
+    f e
+    d4 r r8 b'(-\dolce a g) %35
+    f2~ f8 es( d es)
+    d2~ d8 c( es g)
+    f( b) d,4. f8( es c)
+    b2 r8 b'( a g)
+    g4( fis) r8 c'( b a) %40
+    a4( g) r8 d'( c b)
+    a gis4 f! e d8
+    cis4( e) r8 a( b a)
+    g( f e d) e( d cis d)
+    cis4( e) r8 a( b a) %45
+    g( f e d) e( d cis d)
+    a'1~ \noBreak
+    a~ \bar "|"
+    \key d \major \time 2/2 \newSpacingSection
+      a2 r4\fermata \tempoOffertoriumB r \noBreak
+    R1*3 %52
+    g2\fE fis
+    e2 e4 r
+    R1*3 %57
+    r2 e
+    fis r
+    R1*2 %61
+    e2 fis
+    e2. r4
+    R1*4 %67
+    g2 fis
+    g1
+    fis4 r r2 %70
+    R1*17 %87
+    e2 fis
+    e1
+    d2 r %90
+    R1*32 %122
+    g2. a8 g
+    fis4 r r2
+    R1*4 %128
+    r2 f\f
+    e1 %130
+    fis!2 r
+    R1*9 %140
+    r2 g~
+    g f
+    e1
+    d2 r
+    R1*3
+    g2\f fis
+    e a
+    fis r %150
+    R1*3
+    g2\f fis
+    e a %155
+    fis r4 fis
+    a1
+    fis2 r\fermata \bar "|." %158 finis
+  }
+}
