@@ -825,3 +825,173 @@ OffertoriumBassoLyrics = \lyricmode {
   sae -- cu --
   lum. %158 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr d1\fE^\tuttiE
+    e2 r
+    a,1
+    h2 r
+    c2. c4 %5
+    h4. h8 h2
+    a4 a a4. a8
+    d4 r r2
+    fis2\p fis4 fis
+    g2 gis %10
+    a a4 a
+    b2 h
+    e,2.\ff e4
+    e r r2
+    e4 e8 e e2 \noBreak %15
+    a r\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      d,1\fE \noBreak
+    e
+    fis
+    g %20
+    a
+    h
+    cis
+    d
+    cis %25
+    h
+    a
+    g
+    fis
+    e %30
+    d
+    e
+    fis
+    g
+    a %35
+    h
+    cis
+    d
+    cis
+    h %40
+    a
+    g
+    fis
+    e
+    d %45
+    e
+    fis
+    g
+    a
+    h %50
+    cis
+    d
+    cis
+    h
+    a %55
+    g
+    fis
+    e
+    d
+    e %60
+    fis
+    g
+    a
+    h
+    cis %65
+    d
+    cis
+    h
+    a
+    g %70
+    fis
+    e
+    d
+    cis
+    h %75
+    \once \tieDashed a~
+    \once \tieDashed a~
+    a
+    d2 r
+    R1*5 %84
+    R1\fermata \bar "|." %85 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- ctus %5
+  Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+  Ple -- ni sunt
+  coe -- li,  %10
+  coe -- li et
+  ter -- ra
+  glo -- ri --
+  a,
+  glo -- ri -- a tu -- %15
+  a.
+  O --
+  _
+  san --
+  na %20
+  in
+  ex --
+  cel --
+  sis,
+  o -- %25
+  san --
+  na
+  in
+  ex --
+  cel -- %30
+  sis,
+  o --
+  san --
+  na
+  in %35
+  ex --
+  cel --
+  sis,
+  o --
+  san -- %40
+  na
+  in
+  ex --
+  cel --
+  sis, %45
+  o --
+  san --
+  na
+  in
+  ex -- %50
+  cel --
+  sis,
+  o --
+  san --
+  na %55
+  in
+  ex --
+  cel --
+  sis,
+  o -- %60
+  san --
+  na
+  in
+  ex --
+  cel -- %65
+  sis,
+  o --
+  san --
+  na
+  in %70
+  ex --
+  cel --
+  sis,
+  in
+  ex -- %75
+  cel --
+
+  sis. %79 finis
+}

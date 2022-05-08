@@ -482,3 +482,100 @@ OffertoriumViolinoI = {
     <d, a' fis'> r\fermata \bar "|." %158 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    \tuplet 3/2 4 {
+      fis8\f fis fis fis[ fis fis] fis fis fis fis[ fis fis]
+      g g g g[ g g] g g g g[ g g]
+      g g g g[ g g] g g g g[ g g]
+      fis fis fis fis[ fis fis] fis fis fis fis[ fis fis]
+      fis fis fis fis[ fis fis] fis fis fis fis[ fis fis] %5
+      g g g g[ g g] g g g g[ g g]
+      fis fis fis fis[ fis fis] <e a,> q q q[ q q]
+    }
+    <fis a,>4 r r2
+    R1
+    \tuplet 3/2 4 {
+      e8\pp e e e[ e e] e e e e[ e e] %10
+      f f f f[ f f] fis fis fis fis[ fis fis]
+      g g g g[ g g] g g g g[ g g]
+      <e' d'>\ff q q q[ q q] q q q q[ q q]
+      q e,[\pp e] e e e e[ e e] e e e
+      <e' d'>\ff q q q[ q q] q q q q[ q q] \noBreak %15
+      <e cis'> e,[\pp e] e e e
+    } e4 r\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      r2 d'\f \noBreak
+    cis4 a h cis
+    d a r2
+    R1 %20
+    r2 a'
+    gis4 e fis gis
+    a2 g
+    fis4 d r2
+    r a' %25
+    g4 h a g
+    fis a r2
+    r d,~
+    d4 fis e d
+    d2 cis %30
+    d r
+    r4 h' h h
+    h2 ais
+    h4 r r2
+    R1 %35
+    r4 d, d d
+    cis d cis h
+    a r h'2~
+    h ais
+    a4 h8 a g2~ %40
+    g4 a8 g fis2~
+    fis4 g8 fis eis2
+    fis4 r r2
+    R1
+    r2 f %45
+    g4 b a g
+    fis! r r2
+    r4 d es d
+    cis! a d2~
+    d4 cis8 d e!4 d %50
+    cis r r2
+    r4 f b gis
+    a2 a~
+    a gis
+    a4 cis, d e %55
+    cis a r2
+    r4 d e fis
+    g fis8 g a4 g
+    fis r fis2
+    g2. fis8 e %60
+    a2. g8 fis
+    h2. a8 g
+    cis2. h8 a
+    d2. cis8 d
+    e1 %65
+    d4 r h2~
+    h4 cis8 h a2~
+    a4 h8 a g2~
+    g4 a8 g fis2~
+    fis4 g8 fis e2~ %70
+    e4 fis8 e d2~
+    d4 e8 d cis2
+    d4 e fis gis
+    a2. a4
+    fis2. e4 %75
+    e2 fis
+    e1~
+    e
+    d2 r
+    h1\p %80
+    a
+    g
+    g~
+    g
+    fis2 r\fermata \bar "|." %85 finis
+  }
+}

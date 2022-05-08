@@ -1026,3 +1026,184 @@ OffertoriumBassFigures = \figuremode {
   r
   r %158 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoSanctus
+    \tuplet 3/2 4 { \mvTr d8\f-\tuttiE d d d[ d d] d d d d[ d d] }
+    \tuplet 3/2 4 { e[ e e] e e e e[ e e] e e e }
+    \tuplet 3/2 4 { a,[ a a] a a a a[ a a] a a a }
+    \tuplet 3/2 4 { h[ h h] h h h h[ h h] h h h }
+    \tuplet 3/2 4 { c c c c[ c c] c[ c c] c c c } %5
+    \tuplet 3/2 4 { h[ h h] h h h h[ h h] h h h }
+    \tuplet 3/2 4 { a[ a a] a a a a[ a a] a a a }
+    d4 r r2
+    \tuplet 3/2 4 { fis8[\pp fis fis] fis fis fis fis[ fis fis] fis fis fis }
+    \tuplet 3/2 4 { g[ g g] g g g gis[ gis gis] gis gis gis } %10
+    \tuplet 3/2 4 { a[ a a] a a a a,[ a a] a a a }
+    \tuplet 3/2 4 { b[ b b] b b b h[ h h] h h h }
+    \tuplet 3/2 4 { e[\ff e e] e e e e[ e e] e e e }
+    e4 r r2
+    \tuplet 3/2 4 { e8[\ffE e e] e e e e[ e e] e e e } \noBreak %15
+    a,4 r r2\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      d1\f \noBreak
+    e
+    fis
+    g %20
+    a
+    h
+    cis
+    d
+    cis %25
+    h
+    a
+    g
+    fis
+    e %30
+    d
+    e
+    fis
+    g
+    a %35
+    h
+    cis
+    d
+    cis
+    h %40
+    a
+    g
+    fis
+    e
+    d %45
+    e
+    fis
+    g
+    a
+    h %50
+    cis
+    d
+    cis
+    h
+    a %55
+    g
+    fis
+    e
+    d
+    e %60
+    fis
+    g
+    a
+    h
+    cis %65
+    d
+    cis
+    h
+    a
+    g %70
+    fis
+    e
+    d
+    cis
+    h %75
+    a~
+    a~
+    a
+    \mvTr d~\p-\tasto
+    d~ %80
+    d~
+    d~
+    d~
+    d~
+    d2 r\fermata \bar "|." %85 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  <6 4 3>
+  <7>
+  <5>
+  <6 4 2> %5
+  <6>
+  <6 4>2 <7 [3]>
+  r1
+  <6>
+  <6 5 _->2 <\t \t _!> %10
+  <6! 4 _!> <[6+ \t \t]>
+  <6> <\t>
+  <7 _+>1
+  r
+  <\t \t> %15
+  r
+  r
+  <6>
+  q
+  r %20
+  r
+  <6\\ 4>
+  <6>2 <5!>
+  r1
+  <6> %25
+  q
+  <6 4>
+  r
+  <6>
+  <7>2 <6> %30
+  <5> <6>
+  r1
+  <5 4>2 <\t _+>
+  <5>1
+  <6 4 _!> %35
+  <6>2 <[5]>
+  <5+ _+>1
+  <5>2 <6>
+  <7> <6\\>
+  <7! _+> <6 4>4 <\t _!> %40
+  <7>2 <6 4>4 <\t 3>
+  <7>2 <6\\ 4>4 <\t 3>
+  <_+>1
+  <5>2 <6>
+  <8 _+> <\t _!> %45
+  <7 3> <6\\ \t>
+  <5!>4 <7-> <6> <5!>
+  <5 _->2 <6- \t>4 <5 \t>
+  <8 _+> <7 \t> <6! 4>2
+  <6\\>1 %50
+  <6>4 <7-> <6> <5!>
+  <5 _!>2 <6- \t>
+  <6>1
+  <7 5!>2 <6\\ 4>
+  <5>1 %55
+  <6 4>
+  <6 3>1
+  <7 5>2 <6 4>
+  <5> <6>
+  <\l 5> <6 \t> %60
+  <\l 5> <6 \t>
+  <\l 5> <6 \t>
+  <\l 5> <6 \t>
+  <\l 5> <6 \t>
+  <\l 5> <6 \t> %65
+  <5 3> <6 \t>
+  <7> <6>
+  <7> <6>
+  <7> <6>
+  <7> <6> %70
+  <7> <6>
+  <7> <6>
+  <5>2. <[6\\]>4
+  <6>1
+  <5>2. <6\\>4 %75
+  <8 3>2 <6 4>
+  \bo <[7 5 4]> \bassFigureExtendersOn <7 5 3>4 <7 5 2>
+  \bc <[7 5 3]>1 \bassFigureExtendersOff
+  r
+  r %80
+  r
+  r
+  r
+  r
+  r %85 finis
+}

@@ -499,3 +499,100 @@ OffertoriumViola = {
     d, r\fermata \bar "|." %158 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoSanctus
+    \tuplet 3/2 4 {
+      a8[\f a a] a a a a[ a a] a a a
+      a[ a a] a a a a[ a a] a a a
+      cis cis cis cis[ cis cis] cis cis cis cis[ cis cis]
+      d[ d d] d d d d[ d d] d d d
+      a[ a a] a a a a[ a a] a a a %5
+      g[ g g] g g g g[ g g] g g g
+      a[ a a] a a a g[ g g] g g g
+    }
+    fis4 r r2
+    \tuplet 3/2 4 {
+      a8\pp[ a a] a a a a[ a a] a a a
+      b[ b b] b b b h[ h h] h h h %10
+      c[ c c] c c c c[ c c] c c c
+      b[ b b] b b b d[ d d] d d d
+      <e h>\ff q q q[ q q] q q q q[ q q]
+      q gis,\pp[ gis] gis gis gis gis[ gis gis] gis gis gis
+      <h e>\ff q q q[ q q] q q q q[ q q] \noBreak %15
+      <a e'> a[\pp a] a a a
+    } a4 r\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      fis'1\f \noBreak
+    g
+    a
+    d,2. g4 %20
+    e2 cis
+    d h
+    a1~
+    a2 d
+    e1 %25
+    d2 d~
+    d fis
+    g d
+    d d
+    e2. a,4 %30
+    a2 r
+    R1
+    r4 cis2 cis4
+    h h' h h
+    c1 %35
+    h4 g fis2
+    eis1
+    fis4 r r2
+    r fis~
+    fis e~ %40
+    e d~
+    d4 r r2
+    r ais
+    h4 h cis h8 cis
+    d2 r %45
+    R1
+    a'2. a4
+    d, r b'2
+    a4 g f f
+    e1~ %50
+    e2 e
+    d4 r f2
+    e1
+    f2 e
+    e1~ %55
+    e4 cis d e
+    fis!2 a
+    h a
+    a4 r r2
+    r4 g, h2 %60
+    a cis
+    h d
+    cis e
+    d fis
+    a1 %65
+    a4 r r2
+    r a
+    fis g
+    e fis
+    d e %70
+    cis d
+    h cis
+    a4 r r2
+    R1
+    d4 e fis gis %75
+    a1~
+    a
+    g!
+    fis2 r
+    R1 %80
+    r2 a,\p
+    h cis
+    \once \tieDashed cis1~
+    cis
+    d2 r\fermata \bar "|." %85 finis
+  }
+}

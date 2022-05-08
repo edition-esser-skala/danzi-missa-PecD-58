@@ -280,3 +280,46 @@ OffertoriumOboeII = {
     d2 r\fermata \bar "|." %158 finis
   }
 }
+
+SanctusOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    R1
+    cis'1~\f
+    cis4 r r2
+    d1
+    a %5
+    g
+    a2 cis
+    d4 r r2
+    R1*4 %12
+    h1~\ff
+    h4 r r2
+    h1\ff \noBreak %15
+    cis4 r r2\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      R1*6 %22
+    e4\f cis d e
+    a,2 r
+    R1*5 %29
+    d2 cis %30
+    d r
+    R1*25 %56
+    r2 d~
+    d cis
+    d4 r r2
+    R1*14 %73
+    r4 a h cis
+    d1 %75
+    cis2 d~
+    d cis4 h
+    cis1
+    d2 r
+    R1*2 %81
+    r2 cis\p
+    cis1~
+    cis
+    d2 r\fermata \bar "|." %85 finis
+  }
+}

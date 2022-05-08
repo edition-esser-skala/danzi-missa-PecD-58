@@ -48,3 +48,40 @@ GloriaClarinoII = {
     c r r\fermata \bar "|." %150 finis
   }
 }
+
+SanctusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1
+    g4\f g8. g16 g4 g
+    g r r2
+    c4 c8. c16 c4 c
+    c4 c8. c16 c4 c %5
+    c4 c8. c16 c4 c
+    g r8. g16 g4 r8. g16
+    c4 r r2
+    R1*4 %12
+    d'4\ffE r8. d16 d4 r8. d16
+    d4 r r2
+    d4\ffE r8. d16 d4 r8. d16 \noBreak %15
+    g,4 r r2\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      R1*6 %22
+    g,2\fE r
+    c r
+    R1*5 %29
+    r2 g %30
+    c r
+    R1*26 %57
+    r2 g
+    c4 r r2
+    R1*16 %75
+    g2 c
+    g1~
+    g
+    c4 r r2
+    R1*5 %84
+    R1\fermata \bar "|." %85 finis
+  }
+}

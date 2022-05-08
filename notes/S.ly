@@ -878,3 +878,177 @@ OffertoriumSopranoLyrics = \lyricmode {
   sae -- cu --
   lum. %158 finis
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr a'1\fE^\tuttiE
+    a2 r
+    g1
+    fis2 r
+    d'2. d4 %5
+    d4. d8 d2
+    d4 d cis4. cis8
+    d4 r r2
+    R1*2 %10
+    d2\p d4 d
+    d2 d
+    d2.\ff d4
+    d r r2
+    d4 d8 d d2 \noBreak %15
+    cis r\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      r2 d\fE \noBreak
+    cis4 a h cis
+    d a r2
+    R1*2 %21
+    r2 e'
+    e4 cis d e
+    fis d r2
+    r a %25
+    g4 h a g
+    fis a r2
+    r d
+    d4 fis e d
+    d2( cis) %30
+    d r
+    r4 h h h
+    h h ais2
+    h4 r r2
+    R1 %35
+    r4 d d d
+    cis( d) cis( h)
+    a fis r2
+    e'4( g!) fis( e)
+    dis2 e4 d %40
+    cis2 d4 cis
+    h h8 h cis4 h
+    ais2 r
+    R1
+    r2 d %45
+    d cis
+    c4( es d) c
+    b g r2
+    R1
+    r2 e'! %50
+    e1
+    d4 r r2
+    r4 a( h!) cis!
+    d( cis8[ d] e4 d)
+    cis r r2 %55
+    r4 a h cis
+    d2 d
+    d( cis)
+    d4 r h2
+    h4 a8[ g] cis2~ %60
+    cis4 h8[ a] d2~
+    d4 cis8[ h] e2~
+    e4 d8[ cis] fis2~
+    fis4 e8[ d] g2~
+    g4 fis e fis8[ g] %65
+    fis4 r r fis
+    e2. fis8[ e]
+    d2. e8[ d]
+    cis2. d8[ cis]
+    h2. cis8([ h]) %70
+    a2. h8[( a])
+    g2.( a8[ g)]
+    fis4 r r2
+    r4 a( h) cis
+    d1 %75
+    cis2 \once \tieDashed d~
+    d cis4 h
+    cis1
+    d2 r
+    R1*5 %84
+    R1\fermata \bar "|." %85 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San --
+  ctus,
+  san --
+  ctus,
+  san -- ctus %5
+  Do -- mi -- nus
+  De -- us Sa -- ba --
+  oth.
+
+  Ple -- ni sunt %11
+  coe -- li
+  glo -- ri --
+  a,
+  glo -- ri -- a tu -- %15
+  a.
+  O --
+  san -- na in ex --
+  cel -- sis,
+
+  o -- %22
+  san -- na in ex --
+  cel -- sis,
+  o -- %25
+  san -- na in ex --
+  cel -- sis,
+  o --
+  san -- na in ex --
+  cel -- %30
+  sis,
+  o -- san -- na
+  in ex -- cel --
+  sis,
+  %35
+  o -- san -- na
+  in __ ex --
+  cel -- sis.
+  Be -- ne --
+  di -- ctus, qui %40
+  ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni.
+
+  O -- %45
+  san -- na
+  in __ ex --
+  cel -- sis,
+
+  o -- %50
+  san --
+  na
+  in __ ex --
+  cel --
+  sis, %55
+  o -- san -- na
+  in ex --
+  cel --
+  sis, o --
+  san -- _ _ %60
+  _ _
+  _ _
+  _ _
+  _ _
+  _ _ _ %65
+  na, o --
+  san -- _
+  _ _
+  _ _
+  _ na %70
+  in ex --
+  cel --
+  sis,
+  in __ ex --
+  cel -- %75
+  _ _
+  _ _
+  _
+  sis. %79 finis
+}
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.

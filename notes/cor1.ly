@@ -280,3 +280,50 @@ OffertoriumCornoI = {
     c2 r\fermata \bar "|." %158 finis
   }
 }
+
+SanctusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1
+    \tieDashed g''1~\f
+    g4 r r2
+    c,1~
+    c~ %5
+    c \tieSolid
+    e2 d
+    c4 r r2
+    R1*4 %12
+    \pa d1~\ff
+    d4 \pd r r2
+    \pa d1~\ff \noBreak %15
+    d4 \pd r r2\fermata \bar "||"
+    \time 2/2 \tempoOsanna \newSpacingSection
+      R1*6 %22
+    d1\f
+    c2 r
+    R1*3 %27
+    \once \tieDashed c1~
+    c2 r
+    r \pao g %30
+    c r
+    R1*26 %57
+    r2 \pao g
+    c4 r r2
+    R1*5 %64
+    r2 d %65
+    e4 r r2
+    R1*7 %73
+    \pa g,1
+    c \pd %75
+    d2 e
+    d1~
+    d
+    \pa c2 r
+    R1*2 %81
+    r2 d\p
+    d1~
+    d \pd
+    c2 r\fermata \bar "|." %85 finis
+  }
+}
