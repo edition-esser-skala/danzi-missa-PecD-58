@@ -1,10 +1,10 @@
 composer:
   last: Danzi
   first: Franz Ignaz
-title: Missa in D
+title: Missa in D major
 id: PecD 58
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), fl, 2 ob, 2 cor (D), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), fl, 2 ob,\\2 cor (D), 2 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
