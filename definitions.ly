@@ -25,8 +25,10 @@ tempoCredo = \tempoMarkup "Allegro moderato"
   tempoCredoB = \tempoMarkup "Allegro molto"
 tempoOffertorium = \tempoMarkup "Moderato"
   tempoOffertoriumB = \tempoMarkup "Allegro"
-tempoSanctus = \tempoMarkup "Andate"
+tempoSanctus = \tempoMarkup "Andante"
   tempoOsanna = \tempoMarkup "Allegro"
+tempoAgnus = \tempoMarkup "Andante"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/fl.ly"

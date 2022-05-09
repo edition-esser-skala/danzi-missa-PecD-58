@@ -995,3 +995,227 @@ SanctusBassoLyrics = \lyricmode {
 
   sis. %79 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*16 %16
+    r4 \mvTr d\p^\tuttiE d
+    d2 d4
+    d2.
+    d4 d d %20
+    d2 d4
+    d2.
+    d4 r r
+    R2.*8 %31
+    r4 \mvTr g\p^\tuttiE g
+    g2 g4
+    g2.
+    g4 g g %35
+    g2 g4
+    g2.
+    g4 r r
+    R2.*6 \noBreak %44
+    R2.\fermata \bar "||" %45
+    \key d \major \time 2/2 \tempoDona \newSpacingSection
+      \mvTr d2(\fE^\tuttiE fis4) gis \noBreak
+    a2. g4
+    fis2 h
+    r4 g a g
+    fis d h'2 %50
+    r4 g a g
+    fis4 d r2
+    d( fis4) gis
+    a2 a
+    a gis %55
+    r a~
+    a gis
+    r a
+    gis g
+    fis f %60
+    e1
+    d2 h
+    a r
+    d( fis4) gis
+    a2 a, %65
+    r gis'(
+    a) a,
+    R1*10 %77
+    d2( fis4) gis
+    a2. g4
+    fis2 h %80
+    r4 g a g
+    fis d h'2
+    r4 g a g
+    fis d r2
+    e4 d cis h %85
+    ais2 h
+    gis' g
+    fis( g4) e
+    fis1
+    h2 r %90
+    g2. g4
+    fis2 h
+    cis cis,
+    r h'(
+    cis) cis, %95
+    fis g!
+    e( fis)
+    h, r
+    fis'( gis4) ais
+    h2 e, %100
+    fis fis
+    r e(
+    fis) fis
+    h, c
+    a'4 fis h2 %105
+    gis4 e a2
+    fis4 d g2~
+    g fis
+    g r
+    R1*9 %118
+    d2( fis4) gis
+    a a r2 %120
+    e( gis4 ais)
+    h2 r
+    R1*2
+    d,!2( fis4) gis %125
+    a2. g4
+    fis2 h
+    r4 g a g
+    fis d h'2
+    r4 g a g %130
+    fis d cis2
+    h1
+    a
+    a~
+    a~ %135
+    a~
+    a~\p
+    a~
+    a~
+    a~ %140
+    a~
+    a
+    ais2 h
+    g1
+    a!~ %145
+    a
+    d4 r r2
+    a'1\f
+    d,4 r r2
+    a1 %150
+    d2 fis
+    a d
+    a1~
+    a
+    d,2 r %155
+    R1
+    R\fermata \bar "|." %157 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  Mi -- se -- %17
+  re -- re
+  no --
+  bis, mi -- se -- %20
+  re -- re
+  no --
+  bis.
+
+  Mi -- se -- %32
+  re -- re
+  no --
+  bis, mi -- se -- %35
+  re -- re
+  no --
+  bis.
+
+  Do -- na %46
+  no -- bis
+  pa -- cem,
+  pa -- _ _
+  _ _ cem, %50
+  pa -- _ _
+  _ cem,
+  do -- na
+  no -- bis
+  pa -- cem, %55
+  pa --
+  cem,
+  pa --
+  _ _
+  _ _ %60
+  _
+  _ _
+  cem,
+  do -- na
+  no -- bis %65
+  pa --
+  cem,
+
+  do -- na %78
+  no -- bis
+  pa -- cem, %80
+  pa -- _ _
+  _ _ cem,
+  pa -- _ _
+  _ cem,
+  do -- na no -- bis %85
+  pa -- cem,
+  do -- na
+  no -- bis
+  pa --
+  cem, %90
+  do -- na
+  no -- bis
+  pa -- cem,
+  do --
+  na %95
+  no -- bis
+  pa --
+  cem,
+  do -- na
+  no -- bis %100
+  pa -- cem,
+  do --
+  na
+  no -- bis
+  pa -- _ _ %105
+  _ _ _
+  _ _ _
+  _
+  cem,
+
+  do -- na %119
+  no -- bis %120
+  pa --
+  cem,
+
+  do -- na %125
+  no -- bis
+  pa -- cem,
+  pa -- _ _
+  _ _ cem,
+  pa -- _ _ %130
+  _ _ _
+  _
+  cem,
+  pa --
+
+  _ cem, %143
+  pa --
+  _ %145
+
+  cem,
+  pa --
+  cem,
+  pa -- %150
+  _ cem,
+  do -- na
+  pa --
+
+  cem. %155 finis
+}

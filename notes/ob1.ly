@@ -356,3 +356,87 @@ SanctusOboeI = {
     fis2 r\fermata \bar "|." %85 finis
   }
 }
+
+AgnusOboeI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*16 %16
+    a''2.\p
+    h
+    \appoggiatura a8 g4 fis8( e d cis)
+    d4 a'2 %20
+    h2.
+    \appoggiatura a8 g4 fis8( e d cis)
+    d4 d r
+    R2.*8 %31
+    d2.
+    e
+    fis
+    g4 d2 %35
+    e2.
+    fis
+    g4 r r
+    R2.*6 \noBreak %44
+    R2.\fermata \bar "||" %45
+    \key d \major \time 2/2 \tempoDona \newSpacingSection
+      R1*16 %61
+    d2\f fis4 gis
+    a2. g4
+    fis2 r
+    r e %65
+    fis r
+    r e
+    fis r
+    R1*2 %70
+    r2 gis
+    a r
+    r gis
+    a4 r r2
+    R1 %75
+    r2 h~
+    h a4 g!
+    fis2 r
+    R1*14 %92
+    gis1
+    a2 r
+    gis1 %95
+    fis2 h~
+    h ais
+    h r
+    R1
+    r2 h~ %100
+    h ais
+    h h~
+    h ais
+    a g
+    fis1 %105
+    e
+    d2. g4
+    a1
+    g2 r
+    R1*24 %133
+    d2 fis4 gis
+    a2 r %135
+    R1*3
+    r2 d,\p
+    g1 %140
+    fis
+    g
+    fis
+    g
+    fis %145
+    e
+    d4 fis\f e fis
+    g1
+    fis4 fis e fis
+    g1 %150
+    fis2 fis4. fis8
+    fis2 fis
+    g1~
+    g
+    fis4 r r2 %155
+    a4 r r2
+    fis4 r r2\fermata \bar "|." %157 finis
+  }
+}

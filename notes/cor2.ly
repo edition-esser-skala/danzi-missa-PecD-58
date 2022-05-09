@@ -328,3 +328,76 @@ SanctusCornoII = {
     c2 r\fermata \bar "|." %85 finis
   }
 }
+
+AgnusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*16 %16
+    c2.~\p
+    c~
+    c~
+    c~ %20
+    c~
+    c~
+    c4 c r
+    R2.*21 \noBreak %44
+    R2.\fermata \bar "||" %45
+    \time 2/2 \tempoDona \newSpacingSection
+      R1*16 %61
+    c'1\f
+    g
+    c2 r
+    r g, %65
+    c r
+    r g
+    c4 r r2
+    R1*2 %70
+    r2 d'
+    g, r
+    r d'
+    g,4 r r2
+    g,1~ %75
+    g~
+    g
+    c2 r
+    g'1~
+    g4 r r2 %80
+    R1*13 %93
+    e2 r
+    R1 %95
+    e2 r
+    R1*4 %100
+    r2 e'~
+    e r
+    r e~
+    e d
+    R1*2 %106
+    r2 c
+    d c~
+    c r
+    R1*24 %133
+    c,2 r
+    g r %135
+    R1*3
+    r2 c'\p
+    g1 %140
+    c
+    g
+    d'2 c
+    d1
+    c %145
+    c2 g
+    c4 c\f g c
+    g1
+    c4 c g c
+    g1 %150
+    c,2 c4. c8
+    c2 c
+    g'1~
+    g
+    c4 r r2 %155
+    g4 r r2
+    c,4 r r2\fermata \bar "||" %157 finis
+  }
+}

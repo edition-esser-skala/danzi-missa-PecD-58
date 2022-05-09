@@ -1030,3 +1030,211 @@ SanctusAltoLyrics = \lyricmode {
 
   sis. %79 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoAgnus
+    R2.*16 %16
+    r4 \mvTr fis\p^\tuttiE fis
+    g2 g4
+    e2.
+    d4 fis fis %20
+    g2 g4
+    e2.
+    d4 r r
+    R2.*8 %31
+    r4 \mvTr f\p^\tuttiE f
+    e2 e4
+    fis!2.
+    g4 f f %35
+    e2 e4
+    fis!2.
+    g4 r r
+    R2.*6 \noBreak %44
+    R2.\fermata \bar "||" %45
+    \key d \major \time 2/2 \tempoDona \newSpacingSection
+      R1*16 %61
+    \mvTr d2(\fE^\tuttiE fis4) gis
+    a2. g4
+    fis2 h
+    r4 g a g %65
+    fis d h'2
+    r4 g a g
+    fis d r2
+    d( fis4) gis
+    a2 a %70
+    a gis
+    r a~
+    a gis
+    a1
+    gis2 g %75
+    fis f
+    e1
+    fis!2 d
+    R1*5 %83
+    d2( e4) fis
+    g2. g4 %85
+    fis2 h~
+    h4 e, a2~
+    a4 d, g2~
+    g4 cis, fis e
+    d2 r %90
+    h( d4) e
+    fis2 fis
+    fis eis
+    r \once \tieDashed fis~^\critnote
+    fis eis %95
+    e d
+    cis fis4 e
+    d2 r
+    R1*11 %109
+    d2( e4) fis %110
+    g2 g
+    g4 fis2 f4
+    e2 a~
+    a4 gis2 g4
+    fis2 h~ %115
+    h4 a8[ gis] a2~
+    a4 g8[ fis] g4 fis
+    e2. a8[ g]
+    fis4 fis2 f4
+    e2 a~ %120
+    a4 gis2 g4
+    fis2 h~
+    h4 ais a2~
+    a4 gis g2~
+    g4 fis2 f4 %125
+    e2 a
+    a r
+    R1
+    r2 \once \tieDashed h~
+    h a %130
+    a1~
+    a2 gis
+    a r
+    d,( fis4) gis
+    a1 %135
+    gis2 g
+    fis a\p
+    gis g
+    fis1
+    g %140
+    fis
+    g
+    fis
+    g2. g4
+    fis1 %145
+    e
+    fis4 fis(\f e) fis
+    g1
+    fis4 fis( e) fis
+    g2. g4 %150
+    fis1~
+    fis
+    \once \tieDashed g~
+    g
+    fis2 r %155
+    R1
+    R\fermata \bar "|." %157 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  Mi -- se -- %17
+  re -- re
+  no --
+  bis, mi -- se -- %20
+  re -- re
+  no --
+  bis.
+
+  Mi -- se -- %32
+  re -- re
+  no --
+  bis, mi -- se -- %35
+  re -- re
+  no --
+  bis.
+
+  Do -- na %62
+  no -- bis
+  pa -- cem,
+  pa -- _ _ %65
+  _ _ cem,
+  pa -- _ _
+  _ cem,
+  do -- na
+  no -- bis %70
+  pa -- cem,
+  pa --
+  cem,
+  do --
+  _ na %75
+  no -- bis
+  pa --
+  _ cem,
+
+  do -- na %84
+  no -- bis %85
+  pa -- _
+  _ _
+  _ _
+  _ _ _
+  cem, %90
+  do -- na
+  no -- bis
+  pa -- cem,
+  pa --
+  _ %95
+  _ _
+  _ _ _
+  cem,
+
+  do -- na %110
+  no -- bis
+  pa -- _ _
+  _ _
+  _ _
+  _ _ %115
+  _ _
+  _ _ _
+  _ _
+  cem, do -- na
+  pa -- _ %120
+  _ _
+  _ _
+  _ _
+  _ _
+  _ _ %125
+  _ _
+  cem,
+
+  pa --
+  cem, %130
+  pa --
+  _
+  cem,
+  do -- na
+  no -- %135
+  _ bis
+  pa -- _
+  _ _
+  _
+  _ %140
+  cem,
+  do --
+  na
+  no -- bis
+  pa -- %145
+  _
+  cem, do -- na
+  pa --
+  cem, do -- na
+  no -- bis %150
+  pa --
+
+  _
+
+  cem. %155 finis
+}

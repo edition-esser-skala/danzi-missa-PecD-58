@@ -596,3 +596,148 @@ SanctusViola = {
     d2 r\fermata \bar "|." %85 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoAgnus
+    r8 d\p d d e e
+    e4( d) r
+    r8 d d d d d
+    d4( c!) r
+    r r b( %5
+    h) fis'( g)
+    e8 r a, r a4~
+    a g r
+    r fis'( dis)
+    h2 r4 %10
+    r e( cis)
+    a2 r4
+    h2 h4
+    r8 b( a) b( a) a-\parenthesize-!
+    a r g r fis r %15
+    g4 a g
+    fis8 d'([ fis, d' fis, d'])
+    r d( h d h d)
+    r <g, e>4 q q8
+    fis8 d'([ fis, d' fis, d']) %20
+    r d( h d h d)
+    r <g, e>4 q q8
+    fis4 fis r
+    r h( gis)
+    a r r %25
+    r a( fis)
+    g! r r
+    e'2.
+    r8 es( d) es( d) d-!
+    d r c r h r %30
+    c4 d c
+    h8 d([ h d h d)]
+    r e( c e c e)
+    r c( a c a c)
+    g d'([ h d h d)] %35
+    r e( c e c e)
+    r c( a c a c)
+    h d d d e e
+    e4( d) r
+    r8 d d d d d %40
+    d4( c!) r
+    R2.
+    r4 r r8 e
+    r d d d d d \noBreak
+    a2 r4\fermata \bar "||" %45
+    \key d \major \time 2/2 \tempoDona \newSpacingSection
+      R1*6 %51
+    a2\f h4 cis
+    d2. d4
+    cis2 fis
+    r4 d e d %55
+    cis a fis'2
+    r4 d e d
+    cis a fis'2~
+    fis4 h, e2~
+    e4 a, d2~ %60
+    d cis
+    d r
+    a h4 cis
+    d r d2~
+    d cis %65
+    r \once \tieDashed d~
+    d cis
+    d cis
+    h1
+    a2 dis %70
+    e e,
+    r dis'
+    e e,
+    a dis
+    e cis %75
+    d! gis,
+    a1~
+    a2 d
+    cis d4 e
+    fis1 %80
+    e
+    d2 fis
+    e1
+    d2 r
+    h cis4 d %85
+    e2 d~
+    d cis
+    c h
+    ais1
+    h2 r %90
+    R1*7 %97
+    h2 d4 e
+    fis2. e4
+    d2 g %100
+    r4 e fis e
+    d h g'2
+    r4 e fis e
+    dis h e2~
+    e d~ %105
+    d c~
+    c h4 d
+    e2 d4 c
+    h2 r
+    R1*10 %119
+    a2 cis4 dis %120
+    e2 r
+    h d!4 e
+    fis2 cis4 dis
+    e2 h4 cis!
+    d!2 r %125
+    a h4 cis
+    d2 fis
+    e1
+    r2 fis
+    e1 %130
+    d2 r
+    R1
+    a2 h4 cis
+    d2 h
+    a cis4 dis %135
+    e2 h4 cis
+    d!2 cis4\p dis
+    e2 h4 cis
+    d!1
+    cis %140
+    d
+    cis~
+    cis2 h
+    h1
+    d~ %145
+    d2 cis4 e
+    d r r2
+    a2.\f a4
+    d r r2
+    a2. a4 %150
+    d2 fis
+    a d
+    a,1~
+    a
+    d2 r %155
+    a4 r r2
+    d4 r r2\fermata \bar "|." %157 finis
+  }
+}

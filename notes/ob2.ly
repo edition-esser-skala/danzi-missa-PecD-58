@@ -323,3 +323,88 @@ SanctusOboeII = {
     d2 r\fermata \bar "|." %85 finis
   }
 }
+
+AgnusOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    R2.*16 %16
+    fis'2.\p
+    g
+    cis,2 g4
+    fis fis'2 %20
+    g2.
+    cis,2 g4
+    fis fis r
+    R2.*8 %31
+    h2.
+    c~
+    c
+    h %35
+    c~
+    c
+    h4 r r
+    R2.*6 \noBreak %44
+    R2.\fermata \bar "||" %45
+    \key d \major \time 2/2 \tempoDona \newSpacingSection
+      R1*16 %61
+    d1\f
+    cis2 d4 e
+    d2 r
+    r cis %65
+    d r
+    r cis
+    d r
+    R1*2 %70
+    r2 h
+    cis r
+    r h
+    cis4 r r2
+    R1 %75
+    r2 d~
+    d cis
+    d r
+    R1*13 %91
+    r2 fis~
+    fis eis
+    fis1~
+    fis2 eis %95
+    e d
+    cis fis4 e
+    d2 r
+    R1
+    r2 r4 e %100
+    cis1
+    h2 r4 e
+    cis1
+    dis2 e~
+    e d~ %105
+    d c~
+    c h
+    a1
+    h2 r
+    R1*24 %133
+    r2 d
+    cis r %135
+    R1*3
+    r2 a\p
+    cis1 %140
+    d
+    cis~
+    cis2 d
+    e1
+    d~ %145
+    d2 cis
+    d4 d\f cis d
+    cis1
+    d4 d cis d
+    cis1 %150
+    d2 d4. d8
+    d2 d
+    cis1~
+    cis
+    d4 r r2 %155
+    cis4 r r2
+    d4 r r2\fermata \bar "|." %157 finis
+  }
+}

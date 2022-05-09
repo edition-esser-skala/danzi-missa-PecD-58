@@ -579,3 +579,133 @@ SanctusViolinoI = {
     fis2 r\fermata \bar "|." %85 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAgnus
+    r8 h'\p h h h h
+    cis4( d) r
+    r8 a a a a a
+    h4( c!) r
+    r8 c c c cis cis( %5
+    d) d( c) c( h) \once \slurDashed h(
+    a) r a r a g
+    fis4 g r
+    h8 h4 h h8
+    h( dis e d cis h) %10
+    a a4 a a8
+    a( cis d cis h a)
+    gis2 gis4
+    g2 g4(
+    fis8) r g r a r %15
+    h8.( g16) fis4 e
+    d c'! c
+    r h h
+    \appoggiatura a8 g4 fis8( e d cis)
+    d4 c'! c %20
+    r h h
+    \appoggiatura a8 g4 fis8( e d cis)
+    d4 d r
+    e8 e4 e e8
+    e4 a8( h c! cis) %25
+    d d,4 d d8
+    d4 r h'8 r
+    r cis4 cis cis8
+    c c4 c c8
+    h r c r d r %30
+    e8.( c16) h4 a
+    g f' f
+    r e e
+    \appoggiatura d8 c4 h8( a g fis!)
+    g4 f' f %35
+    r e e
+    \appoggiatura d8 c4 h8( a g fis!)
+    g h h h h h
+    cis4( d) r
+    r8 a a a a a %40
+    h4( c!) r8 c
+    h h4 c8( h a)
+    r g g g r cis
+    r d d d d fis, \noBreak
+    fis4( e) r\fermata \bar "||" %45
+    \key d \major \time 2/2 \tempoDona \newSpacingSection
+      R1*22 %67
+    a2\fE h4 cis
+    d2. d4
+    cis2 fis %70
+    r4 d e d
+    cis a fis'2
+    r4 d e d
+    cis a fis'2~
+    fis4 h, e2~ %75
+    e4 a, d2~
+    d cis
+    d r
+    R1*5 %83
+    d2 e4 fis
+    g2. g4 %85
+    fis2 h~
+    h4 e, a2~
+    a4 d, g2~
+    g4 cis, fis e
+    d2 r %90
+    h d4 e
+    fis r fis2~
+    fis eis
+    r fis~
+    fis eis %95
+    e d
+    cis fis4 e
+    d2 r
+    R1*10 %108
+    g,2 h4 c
+    d2. c4 %110
+    h2 h
+    a d~
+    d4 cis!2 c4
+    h2 e~
+    e4 dis2 d4 %115
+    c2. d8( c)
+    h2. d4~
+    d cis!8 h cis2
+    d4 fis2 f4
+    e2 a~ %120
+    a4 gis2 g4
+    fis2 h~
+    h4 ais a2~
+    a4 gis g2~
+    g4 fis2 f4 %125
+    e2 a,
+    a d~
+    d cis
+    d d~
+    d cis %130
+    d e
+    d2. e8( d)
+    cis2 r
+    d fis4 gis
+    a2 r4 fis~ %135
+    fis h,2 e4~
+    e a,2 fis'4~\p
+    fis h,2 e4~
+    e a, r8 a'( h a)
+    g( fis e d cis h a g) %140
+    fis2 r8 a'( h a)
+    g( fis e d cis h a g)
+    fis2 r8 fis'( g fis)
+    e h( cis dis e fis g e)
+    a4 d!8( cis h a g fis) %145
+    e4 a,8( gis a h cis a)
+    d4 r r2
+    r4 e8(\f fis g a h cis)
+    d4 r r2
+    r4 e,8( fis g a h cis) %150
+    d( cis h a gis a h a)
+    g( fis e d cis d e d)
+    a4 r r2
+    R1*2 %155
+    <a cis'>4 r r2
+    <d, d' d'>4 r r2\fermata \bar "|." %157 finis
+  }
+}
